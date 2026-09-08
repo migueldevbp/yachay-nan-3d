@@ -1,5 +1,6 @@
 import { forwardRef, type ButtonHTMLAttributes, type ReactNode } from 'react';
 import { VisuallyHidden } from '@/components/ui/VisuallyHidden';
+import { useTranslation } from '@/i18n/useTranslation';
 import { cx } from '@/utils/cx';
 
 export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger';
@@ -26,6 +27,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     },
     ref,
   ) {
+    const { t } = useTranslation('common');
     const isDisabled = Boolean(disabled) || loading;
 
     return (
@@ -45,7 +47,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         {loading ? (
           <>
             <span aria-hidden="true">{children}</span>
-            <VisuallyHidden>Cargando</VisuallyHidden>
+            <VisuallyHidden>{t('loading')}</VisuallyHidden>
           </>
         ) : (
           children

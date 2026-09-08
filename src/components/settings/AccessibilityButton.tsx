@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/Button';
 import { AccessibilityPanel } from '@/components/settings/AccessibilityPanel';
+import { useTranslation } from '@/i18n/useTranslation';
 
 export function AccessibilityButton() {
   const [open, setOpen] = useState(false);
+  const { t } = useTranslation('navigation');
 
   return (
     <>
@@ -13,7 +15,7 @@ export function AccessibilityButton() {
         aria-haspopup="dialog"
         aria-expanded={open}
       >
-        Ajustes de accesibilidad
+        {t('settings')}
       </Button>
       <AccessibilityPanel open={open} onClose={() => setOpen(false)} />
     </>

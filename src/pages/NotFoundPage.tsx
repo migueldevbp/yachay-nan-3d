@@ -1,15 +1,20 @@
 import { Link } from 'react-router-dom';
+import { ROUTE_PATHS } from '@/app/routes';
+import { PageHeader } from '@/components/ui/PageHeader';
+import { useConfirmNavigation } from '@/hooks/useConfirmNavigation';
+import { useTranslation } from '@/i18n/useTranslation';
 
 export function NotFoundPage() {
+  const { t } = useTranslation('errors');
+  const { guardClick } = useConfirmNavigation();
+
   return (
     <>
-      <h1 className="page-title">Página no encontrada</h1>
-      <p className="page-lead">
-        Esa dirección no existe en YACHAY ÑAN 3D. Vuelve al inicio para
-        continuar.
-      </p>
+      <PageHeader title={t('notFoundTitle')} lead={t('notFoundBody')} />
       <p>
-        <Link to="/">Ir al inicio</Link>
+        <Link to={ROUTE_PATHS.home} onClick={guardClick}>
+          {t('notFoundAction')}
+        </Link>
       </p>
     </>
   );

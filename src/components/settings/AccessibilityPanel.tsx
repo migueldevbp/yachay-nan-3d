@@ -3,6 +3,8 @@ import { Dialog } from '@/components/ui/Dialog';
 import { RadioGroup } from '@/components/ui/RadioGroup';
 import { Slider } from '@/components/ui/Slider';
 import { Toggle } from '@/components/ui/Toggle';
+import { isQuechuaValidated } from '@/i18n/config';
+import { useTranslation } from '@/i18n/useTranslation';
 import { useAccessibility } from '@/modules/accessibility/useAccessibility';
 import type {
   DensityPreference,
@@ -28,72 +30,64 @@ export function AccessibilityPanel({ open, onClose }: AccessibilityPanelProps) {
     toggleQuietMode,
     say,
   } = useAccessibility();
+  const { t } = useTranslation('settings');
+  const { t: tCommon } = useTranslation('common');
 
   return (
-    <Dialog open={open} onClose={onClose} title="Ajustes de accesibilidad">
+    <Dialog open={open} onClose={onClose} title={t('title')}>
       <div className="a11y-panel">
         <section
           className="a11y-panel__preset"
           aria-labelledby="quiet-mode-heading"
         >
           <h3 id="quiet-mode-heading" className="a11y-panel__preset-title">
-            Modo Tranquilo
+            {t('quietTitle')}
           </h3>
-          <p className="ui-field-help">
-            Menos movimiento, sin sonido, menos opciones a la vez y confirmación
-            antes de cambiar de pantalla. Puedes desactivarlo y recuperar tus
-            ajustes anteriores.
-          </p>
+          <p className="ui-field-help">{t('quietHelp')}</p>
           <Button
             variant={quietModeActive ? 'secondary' : 'primary'}
             onClick={() => {
               const activating = !quietModeActive;
               toggleQuietMode();
-              say(
-                activating
-                  ? 'Modo tranquilo activado.'
-                  : 'Modo tranquilo desactivado. Se restauraron tus ajustes anteriores.',
-              );
+              say(activating ? t('quietEnabled') : t('quietDisabled'));
             }}
             aria-pressed={quietModeActive}
           >
-            {quietModeActive
-              ? 'Desactivar Modo Tranquilo'
-              : 'Activar Modo Tranquilo'}
+            {quietModeActive ? t('quietOn') : t('quietOff')}
           </Button>
         </section>
 
         <section className="a11y-panel__section" aria-labelledby="section-ver">
-          <h3 id="section-ver">Ver</h3>
+          <h3 id="section-ver">{t('sectionView')}</h3>
           <RadioGroup<ThemePreference>
-            legend="Apariencia"
+            legend={t('themeLegend')}
             name="theme"
             value={preferences.theme}
-            description="Cambia colores de fondo y texto. Alto contraste es el más nítido."
+            description={t('themeHelp')}
             options={[
-              { value: 'light', label: 'Clara' },
-              { value: 'dark', label: 'Oscura' },
-              { value: 'high-contrast', label: 'Alto contraste' },
+              { value: 'light', label: t('themeLight') },
+              { value: 'dark', label: t('themeDark') },
+              { value: 'high-contrast', label: t('themeHigh') },
             ]}
             onChange={(value) => {
               setPreference('theme', value);
-              say(`Apariencia: ${themeLabel(value)}`);
+              say(t('themeChanged', { value: themeLabel(value, t) }));
             }}
           />
           <RadioGroup<TextScalePreference>
-            legend="Tamaño del texto"
+            legend={t('textScaleLegend')}
             name="textScale"
             value={preferences.textScale}
-            description="El texto crece en toda la aplicación, no solo en esta pantalla."
+            description={t('textScaleHelp')}
             options={[
-              { value: 100, label: 'Normal' },
-              { value: 125, label: 'Grande' },
-              { value: 150, label: 'Muy grande' },
-              { value: 200, label: 'Máximo' },
+              { value: 100, label: t('textScale100') },
+              { value: 125, label: t('textScale125') },
+              { value: 150, label: t('textScale150') },
+              { value: 200, label: t('textScale200') },
             ]}
             onChange={(value) => {
               setPreference('textScale', value);
-              say(`Tamaño del texto: ${value} por ciento`);
+              say(t('textScaleChanged', { value }));
             }}
           />
         </section>
@@ -102,79 +96,69 @@ export function AccessibilityPanel({ open, onClose }: AccessibilityPanelProps) {
           className="a11y-panel__section"
           aria-labelledby="section-escuchar"
         >
-          <h3 id="section-escuchar">Escuchar</h3>
+          <h3 id="section-escuchar">{t('sectionHear')}</h3>
           <Toggle
-            label="Sonido"
-            description="Ruidos cortos de la interfaz, como al acertar. No lee el texto en voz alta."
+            label={t('sound')}
+            description={t('soundHelp')}
             checked={preferences.sound}
             onChange={(checked) => {
               setPreference('sound', checked);
-              say(checked ? 'Sonido activado.' : 'Sonido desactivado.');
+              say(checked ? t('soundOn') : t('soundOff'));
             }}
           />
           <Toggle
-            label="Voz"
-            description="Leer en voz alta lo que dice la aplicación. Está apagada hasta que tú la pidas."
+            label={t('speech')}
+            description={t('speechHelp')}
             checked={preferences.speech}
             onChange={(checked) => {
               setPreference('speech', checked);
-              say(checked ? 'Voz activada.' : 'Voz desactivada.');
+              say(checked ? t('speechOn') : t('speechOff'));
             }}
           />
           <Slider
-            label="Velocidad de la voz"
-            description="Qué tan rápido hablará la voz cuando esté disponible."
+            label={t('speechRate')}
+            description={t('speechRateHelp')}
             min={0.6}
             max={1.2}
             step={0.2}
             value={preferences.speechRate}
-            valueText={`${preferences.speechRate} veces`}
+            valueText={t('speechRateValue', { value: preferences.speechRate })}
             disabled={!preferences.speech}
             onChange={(value) => {
               const rate = snapSpeechRate(value);
               setPreference('speechRate', rate);
-              say(`Velocidad de la voz: ${rate}`);
+              say(t('speechRateChanged', { value: rate }));
             }}
           />
         </section>
 
         <section className="a11y-panel__section" aria-labelledby="section-leer">
-          <h3 id="section-leer">Leer</h3>
+          <h3 id="section-leer">{t('sectionRead')}</h3>
           <Toggle
-            label="Subtítulos"
-            description="Muestra abajo el texto de lo que la aplicación dice, aunque no haya audio."
+            label={t('captions')}
+            description={t('captionsHelp')}
             checked={preferences.captions}
             onChange={(checked) => {
               setPreference('captions', checked);
-              say(
-                checked ? 'Subtítulos activados.' : 'Subtítulos desactivados.',
-              );
+              say(checked ? t('captionsOn') : t('captionsOff'));
             }}
           />
           <Toggle
-            label="Braille en pantalla"
-            description="Muestra puntos Braille junto a las letras cuando haya contenido."
+            label={t('braille')}
+            description={t('brailleHelp')}
             checked={preferences.braille}
             onChange={(checked) => {
               setPreference('braille', checked);
-              say(
-                checked
-                  ? 'Braille en pantalla activado.'
-                  : 'Braille en pantalla desactivado.',
-              );
+              say(checked ? t('brailleOn') : t('brailleOff'));
             }}
           />
           <Toggle
-            label="Lengua de señas"
-            description="Mostrar un video de señas cuando exista para esa actividad."
+            label={t('signs')}
+            description={t('signsHelp')}
             checked={preferences.signLanguage}
             onChange={(checked) => {
               setPreference('signLanguage', checked);
-              say(
-                checked
-                  ? 'Lengua de señas activada.'
-                  : 'Lengua de señas desactivada.',
-              );
+              say(checked ? t('signsOn') : t('signsOff'));
             }}
           />
         </section>
@@ -183,20 +167,20 @@ export function AccessibilityPanel({ open, onClose }: AccessibilityPanelProps) {
           className="a11y-panel__section"
           aria-labelledby="section-moverse"
         >
-          <h3 id="section-moverse">Moverse</h3>
+          <h3 id="section-moverse">{t('sectionMove')}</h3>
           <RadioGroup<MotionPreference>
-            legend="Movimiento"
+            legend={t('motionLegend')}
             name="motion"
             value={preferences.motion}
-            description="Las animaciones pueden marear. Puedes reducirlas o apagarlas."
+            description={t('motionHelp')}
             options={[
-              { value: 'full', label: 'Con animación' },
-              { value: 'reduced', label: 'Poca animación' },
-              { value: 'none', label: 'Sin animación' },
+              { value: 'full', label: t('motionFull') },
+              { value: 'reduced', label: t('motionReduced') },
+              { value: 'none', label: t('motionNone') },
             ]}
             onChange={(value) => {
               setPreference('motion', value);
-              say(`Movimiento: ${motionLabel(value)}`);
+              say(t('motionChanged', { value: motionLabel(value, t) }));
             }}
           />
         </section>
@@ -205,48 +189,48 @@ export function AccessibilityPanel({ open, onClose }: AccessibilityPanelProps) {
           className="a11y-panel__section"
           aria-labelledby="section-ritmo"
         >
-          <h3 id="section-ritmo">Ritmo</h3>
+          <h3 id="section-ritmo">{t('sectionPace')}</h3>
           <RadioGroup<DensityPreference>
-            legend="Espacio en pantalla"
+            legend={t('densityLegend')}
             name="density"
             value={preferences.density}
-            description="Calmado deja más aire entre botones y textos."
+            description={t('densityHelp')}
             options={[
-              { value: 'standard', label: 'Estándar' },
-              { value: 'calm', label: 'Calmado' },
+              { value: 'standard', label: t('densityStandard') },
+              { value: 'calm', label: t('densityCalm') },
             ]}
             onChange={(value) => {
               setPreference('density', value);
               say(
                 value === 'calm'
-                  ? 'Espacio en pantalla: calmado.'
-                  : 'Espacio en pantalla: estándar.',
+                  ? t('densityCalmMsg')
+                  : t('densityStandardMsg'),
               );
             }}
           />
           <RadioGroup<InstructionLengthPreference>
-            legend="Instrucciones"
+            legend={t('instructionsLegend')}
             name="instructionLength"
             value={preferences.instructionLength}
-            description="Cortas van al grano. Completas explican con más detalle."
+            description={t('instructionsHelp')}
             options={[
-              { value: 'short', label: 'Cortas' },
-              { value: 'full', label: 'Completas' },
+              { value: 'short', label: t('instructionsShort') },
+              { value: 'full', label: t('instructionsFull') },
             ]}
             onChange={(value) => {
               setPreference('instructionLength', value);
               say(
                 value === 'short'
-                  ? 'Instrucciones cortas.'
-                  : 'Instrucciones completas.',
+                  ? t('instructionsShortMsg')
+                  : t('instructionsFullMsg'),
               );
             }}
           />
           <RadioGroup<OptionsPerActivityPreference>
-            legend="Opciones por actividad"
+            legend={t('optionsLegend')}
             name="optionsPerActivity"
             value={preferences.optionsPerActivity}
-            description="Cuántas respuestas verás a la vez. Menos opciones, menos carga."
+            description={t('optionsHelp')}
             options={[
               { value: 2, label: '2' },
               { value: 3, label: '3' },
@@ -254,20 +238,16 @@ export function AccessibilityPanel({ open, onClose }: AccessibilityPanelProps) {
             ]}
             onChange={(value) => {
               setPreference('optionsPerActivity', value);
-              say(`Opciones por actividad: ${value}`);
+              say(t('optionsChanged', { value }));
             }}
           />
           <Toggle
-            label="Confirmar al cambiar de pantalla"
-            description="Pregunta antes de salir de una actividad, para no perder el avance."
+            label={t('confirmNav')}
+            description={t('confirmNavHelp')}
             checked={preferences.confirmNavigation}
             onChange={(checked) => {
               setPreference('confirmNavigation', checked);
-              say(
-                checked
-                  ? 'Confirmación al cambiar de pantalla activada.'
-                  : 'Confirmación al cambiar de pantalla desactivada.',
-              );
+              say(checked ? t('confirmNavOn') : t('confirmNavOff'));
             }}
           />
         </section>
@@ -276,23 +256,23 @@ export function AccessibilityPanel({ open, onClose }: AccessibilityPanelProps) {
           className="a11y-panel__section"
           aria-labelledby="section-idioma"
         >
-          <h3 id="section-idioma">Idioma</h3>
+          <h3 id="section-idioma">{t('sectionLanguage')}</h3>
           <RadioGroup<LanguagePreference>
-            legend="Idioma de la interfaz"
+            legend={t('languageLegend')}
             name="language"
             value={preferences.language}
-            description="Se guarda ahora. Los textos en quechua llegarán en una fase posterior."
+            description={t('languageHelp')}
             options={[
-              { value: 'es', label: 'Español' },
-              { value: 'qu', label: 'Quechua' },
+              { value: 'es', label: t('languageEs') },
+              { value: 'qu', label: t('languageQu') },
             ]}
             onChange={(value) => {
               setPreference('language', value);
-              say(
-                value === 'qu'
-                  ? 'Idioma guardado: quechua.'
-                  : 'Idioma guardado: español.',
-              );
+              if (value === 'qu' && !isQuechuaValidated()) {
+                say(tCommon('quechuaWarning'), 'assertive');
+                return;
+              }
+              say(value === 'qu' ? t('languageSavedQu') : t('languageSavedEs'));
             }}
           />
         </section>
@@ -302,10 +282,10 @@ export function AccessibilityPanel({ open, onClose }: AccessibilityPanelProps) {
             variant="ghost"
             onClick={() => {
               resetPreferences();
-              say('Se restablecieron los ajustes de accesibilidad.');
+              say(t('resetDone'));
             }}
           >
-            Restablecer todo
+            {t('reset')}
           </Button>
         </div>
       </div>
@@ -313,16 +293,22 @@ export function AccessibilityPanel({ open, onClose }: AccessibilityPanelProps) {
   );
 }
 
-function themeLabel(theme: ThemePreference): string {
-  if (theme === 'high-contrast') return 'alto contraste';
-  if (theme === 'dark') return 'oscura';
-  return 'clara';
+function themeLabel(
+  theme: ThemePreference,
+  t: ReturnType<typeof useTranslation<'settings'>>['t'],
+): string {
+  if (theme === 'high-contrast') return t('themeHighValue');
+  if (theme === 'dark') return t('themeDarkValue');
+  return t('themeLightValue');
 }
 
-function motionLabel(motion: MotionPreference): string {
-  if (motion === 'none') return 'sin animación';
-  if (motion === 'reduced') return 'poca animación';
-  return 'con animación';
+function motionLabel(
+  motion: MotionPreference,
+  t: ReturnType<typeof useTranslation<'settings'>>['t'],
+): string {
+  if (motion === 'none') return t('motionNoneValue');
+  if (motion === 'reduced') return t('motionReducedValue');
+  return t('motionFullValue');
 }
 
 function snapSpeechRate(value: number): 0.6 | 0.8 | 1.0 | 1.2 {

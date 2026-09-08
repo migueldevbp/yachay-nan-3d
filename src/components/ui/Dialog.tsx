@@ -10,6 +10,7 @@ import {
 } from 'react';
 import { useFocusTrap } from '@/hooks/useFocusTrap';
 import { IconButton } from '@/components/ui/IconButton';
+import { useTranslation } from '@/i18n/useTranslation';
 import { cx } from '@/utils/cx';
 
 export type DialogProps = Omit<
@@ -24,6 +25,7 @@ export type DialogProps = Omit<
 
 export const Dialog = forwardRef<HTMLDialogElement, DialogProps>(
   function Dialog({ open, onClose, title, children, className, ...rest }, ref) {
+    const { t } = useTranslation('common');
     const innerRef = useRef<HTMLDialogElement>(null);
     const triggerRef = useRef<HTMLElement | null>(null);
     const titleId = useId();
@@ -124,7 +126,7 @@ export const Dialog = forwardRef<HTMLDialogElement, DialogProps>(
           <h2 id={titleId} className="ui-dialog__title">
             {title}
           </h2>
-          <IconButton aria-label="Cerrar" onClick={onClose}>
+          <IconButton aria-label={t('close')} onClick={onClose}>
             <CloseIcon />
           </IconButton>
         </div>

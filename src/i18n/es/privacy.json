@@ -1,0 +1,12 @@
+{
+  "title": "Privacidad",
+  "intro": "YACHAY ÑAN 3D corre solo en tu navegador. No hay servidor propio que reciba tus datos.",
+  "cameraTitle": "Cámara",
+  "cameraBody": "Si más adelante usas la cámara, la imagen se procesa en el dispositivo. No se guarda en disco ni se envía a internet.",
+  "progressTitle": "Progreso",
+  "progressBody": "El avance, si existe, vive en el almacenamiento local de este navegador. No se asocia a un nombre, DNI ni cuenta.",
+  "personalTitle": "Datos personales y de salud",
+  "personalBody": "No se recoge información personal ni médica. La app no emite diagnósticos, no clasifica discapacidades y no sustituye a un profesional.",
+  "prefsTitle": "Ajustes",
+  "prefsBody": "Las preferencias de accesibilidad e idioma se guardan en este dispositivo para que no tengas que configurarlas en cada visita."
+}

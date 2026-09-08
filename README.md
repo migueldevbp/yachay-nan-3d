@@ -4,7 +4,7 @@ Plataforma web educativa inclusiva y multisensorial. Conecta piezas físicas imp
 
 Corre **100 % en el navegador**, servida como sitio estático. No hay backend.
 
-**Estado actual: Fase 03 de 17.** Modelo de datos educativo, tabla Braille español (por validar) y ContentEngine.
+**Estado actual: Fase 04 de 17.** Navegación completa, layout accesible e internacionalización español / quechua (quechua pendiente de validación).
 
 ## Stack
 
@@ -69,14 +69,15 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 - Canal único `say()`: lector de pantalla + subtítulos + punto de extensión de voz
 - Primitivos UI propios (botón, diálogo, toggle, radios, slider, badge)
 - Modelo de datos educativo en JSON, tabla Braille español (por validar) y ContentEngine
-- Landing mínima (inicio y página 404)
-- Lint, typecheck, tests de humo y axe
+- Landing con las 13 secciones, páginas placeholder honestas y estado del proyecto
+- Internacionalización propia es/qu (sin i18next); quechua vacío a la espera de validación
+- Lint, typecheck, tests de humo, i18n, enrutado y axe
 - Despliegue automático a GitHub Pages
 
 ### EN DESARROLLO
 
 - Cámara, visión, voz real, Braille en pantalla y lengua de señas
-- Actividades, progreso e i18n (español / quechua)
+- Actividades, progreso y catálogo de quechua validado
 
 ### VISIÓN FUTURA
 
@@ -89,6 +90,7 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 
 - [Arquitectura](docs/architecture.md)
 - [Accesibilidad](docs/accessibility.md)
+- [Internacionalización](docs/i18n.md)
 - [Modelo de contenido](docs/content-model.md)
 - [Braille](docs/braille.md)
 - [Despliegue](docs/deployment.md)
