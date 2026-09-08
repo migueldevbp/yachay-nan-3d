@@ -4,7 +4,7 @@ Plataforma web educativa inclusiva y multisensorial. Conecta piezas físicas imp
 
 Corre **100 % en el navegador**, servida como sitio estático. No hay backend.
 
-**Estado actual: Fase 04 de 17.** Navegación completa, layout accesible e internacionalización español / quechua (quechua pendiente de validación).
+**Estado actual: Fase 05 de 17.** Módulo Braille accesible: celda SVG, tabla de referencia (por validar) y práctica bidireccional.
 
 ## Stack
 
@@ -71,12 +71,13 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 - Modelo de datos educativo en JSON, tabla Braille español (por validar) y ContentEngine
 - Landing con las 13 secciones, páginas placeholder honestas y estado del proyecto
 - Internacionalización propia es/qu (sin i18next); quechua vacío a la espera de validación
-- Lint, typecheck, tests de humo, i18n, enrutado y axe
+- Módulo Braille: celda SVG con etiqueta para lector de pantalla, referencia por validar y práctica con teclado
+- Lint, typecheck, tests de humo, i18n, enrutado, Braille y axe
 - Despliegue automático a GitHub Pages
 
 ### EN DESARROLLO
 
-- Cámara, visión, voz real, Braille en pantalla y lengua de señas
+- Cámara, visión, voz real, alfabeto en pantalla y lengua de señas
 - Actividades, progreso y catálogo de quechua validado
 
 ### VISIÓN FUTURA

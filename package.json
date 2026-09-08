@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Plataforma web educativa inclusiva multisensorial. Fase 04: navegación e i18n.",
+  "description": "Plataforma web educativa inclusiva multisensorial. Fase 05: Braille accesible.",
   "scripts": {
     "dev": "vite",
     "build": "npm run typecheck && npm run validate:content && vite build",

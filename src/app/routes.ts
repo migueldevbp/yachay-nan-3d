@@ -1,4 +1,4 @@
-export const APP_PHASE = '04';
+export const APP_PHASE = '05';
 
 export const ROUTE_PATHS = {
   home: '/',

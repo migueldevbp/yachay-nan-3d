@@ -8,7 +8,7 @@ const PHASES = [
   { id: '02', key: 'phase02', done: true },
   { id: '03', key: 'phase03', done: true },
   { id: '04', key: 'phase04', done: true },
-  { id: '05', key: 'phase05', done: false },
+  { id: '05', key: 'phase05', done: true },
   { id: '06', key: 'phase06', done: false },
   { id: '07', key: 'phase07', done: false },
   { id: '08', key: 'phase08', done: false },
