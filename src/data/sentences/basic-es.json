@@ -1,0 +1,1156 @@
+[
+  {
+    "id": "sentence-el-gato-come-pan",
+    "type": "sentence",
+    "character": "el gato come pan",
+    "caseForm": "none",
+    "order": 1,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "el gato come pan",
+        "imageAlt": "Oración: el gato come pan"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "sentence-el-gato-come-pan",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "el gato come pan",
+        "instruction": "Lee la oración: el gato come pan.",
+        "instructionShort": "el gato come pan",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "sentence"
+    ],
+    "relatedIds": [
+      "word-el",
+      "word-gato",
+      "word-come",
+      "word-pan"
+    ],
+    "validation": "pending_validation",
+    "wordIds": [
+      "word-el",
+      "word-gato",
+      "word-come",
+      "word-pan"
+    ]
+  },
+  {
+    "id": "sentence-mi-mama-ve-el-sol",
+    "type": "sentence",
+    "character": "mi mamá ve el sol",
+    "caseForm": "none",
+    "order": 2,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mi mamá ve el sol",
+        "imageAlt": "Oración: mi mamá ve el sol"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "sentence-mi-mama-ve-el-sol",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "mi mamá ve el sol",
+        "instruction": "Lee la oración: mi mamá ve el sol.",
+        "instructionShort": "mi mamá ve el sol",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "sentence"
+    ],
+    "relatedIds": [
+      "word-mi",
+      "word-mama",
+      "word-ve",
+      "word-el",
+      "word-sol"
+    ],
+    "validation": "pending_validation",
+    "wordIds": [
+      "word-mi",
+      "word-mama",
+      "word-ve",
+      "word-el",
+      "word-sol"
+    ]
+  },
+  {
+    "id": "sentence-la-casa-es-grande",
+    "type": "sentence",
+    "character": "la casa es grande",
+    "caseForm": "none",
+    "order": 3,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "la casa es grande",
+        "imageAlt": "Oración: la casa es grande"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "sentence-la-casa-es-grande",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "la casa es grande",
+        "instruction": "Lee la oración: la casa es grande.",
+        "instructionShort": "la casa es grande",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "sentence"
+    ],
+    "relatedIds": [
+      "word-la",
+      "word-casa",
+      "word-es",
+      "word-grande"
+    ],
+    "validation": "pending_validation",
+    "wordIds": [
+      "word-la",
+      "word-casa",
+      "word-es",
+      "word-grande"
+    ]
+  },
+  {
+    "id": "sentence-el-perro-come-pan",
+    "type": "sentence",
+    "character": "el perro come pan",
+    "caseForm": "none",
+    "order": 4,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "el perro come pan",
+        "imageAlt": "Oración: el perro come pan"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "sentence-el-perro-come-pan",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "el perro come pan",
+        "instruction": "Lee la oración: el perro come pan.",
+        "instructionShort": "el perro come pan",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "sentence"
+    ],
+    "relatedIds": [
+      "word-el",
+      "word-perro",
+      "word-come",
+      "word-pan"
+    ],
+    "validation": "pending_validation",
+    "wordIds": [
+      "word-el",
+      "word-perro",
+      "word-come",
+      "word-pan"
+    ]
+  },
+  {
+    "id": "sentence-un-pato-en-el-mar",
+    "type": "sentence",
+    "character": "un pato en el mar",
+    "caseForm": "none",
+    "order": 5,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        6
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "un pato en el mar",
+        "imageAlt": "Oración: un pato en el mar"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "sentence-un-pato-en-el-mar",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "un pato en el mar",
+        "instruction": "Lee la oración: un pato en el mar.",
+        "instructionShort": "un pato en el mar",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "sentence"
+    ],
+    "relatedIds": [
+      "word-un",
+      "word-pato",
+      "word-en",
+      "word-el",
+      "word-mar"
+    ],
+    "validation": "pending_validation",
+    "wordIds": [
+      "word-un",
+      "word-pato",
+      "word-en",
+      "word-el",
+      "word-mar"
+    ]
+  },
+  {
+    "id": "sentence-mi-papa-tiene-un-libro",
+    "type": "sentence",
+    "character": "mi papá tiene un libro",
+    "caseForm": "none",
+    "order": 6,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mi papá tiene un libro",
+        "imageAlt": "Oración: mi papá tiene un libro"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "sentence-mi-papa-tiene-un-libro",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "mi papá tiene un libro",
+        "instruction": "Lee la oración: mi papá tiene un libro.",
+        "instructionShort": "mi papá tiene un libro",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "sentence"
+    ],
+    "relatedIds": [
+      "word-mi",
+      "word-papa",
+      "word-tiene",
+      "word-un",
+      "word-libro"
+    ],
+    "validation": "pending_validation",
+    "wordIds": [
+      "word-mi",
+      "word-papa",
+      "word-tiene",
+      "word-un",
+      "word-libro"
+    ]
+  },
+  {
+    "id": "sentence-el-nino-ve-la-luna",
+    "type": "sentence",
+    "character": "el niño ve la luna",
+    "caseForm": "none",
+    "order": 7,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "el niño ve la luna",
+        "imageAlt": "Oración: el niño ve la luna"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "sentence-el-nino-ve-la-luna",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "el niño ve la luna",
+        "instruction": "Lee la oración: el niño ve la luna.",
+        "instructionShort": "el niño ve la luna",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "sentence"
+    ],
+    "relatedIds": [
+      "word-el",
+      "word-nino",
+      "word-ve",
+      "word-la",
+      "word-luna"
+    ],
+    "validation": "pending_validation",
+    "wordIds": [
+      "word-el",
+      "word-nino",
+      "word-ve",
+      "word-la",
+      "word-luna"
+    ]
+  },
+  {
+    "id": "sentence-el-oso-come-uva",
+    "type": "sentence",
+    "character": "el oso come uva",
+    "caseForm": "none",
+    "order": 8,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "el oso come uva",
+        "imageAlt": "Oración: el oso come uva"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "sentence-el-oso-come-uva",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "el oso come uva",
+        "instruction": "Lee la oración: el oso come uva.",
+        "instructionShort": "el oso come uva",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "sentence"
+    ],
+    "relatedIds": [
+      "word-el",
+      "word-oso",
+      "word-come",
+      "word-uva"
+    ],
+    "validation": "pending_validation",
+    "wordIds": [
+      "word-el",
+      "word-oso",
+      "word-come",
+      "word-uva"
+    ]
+  },
+  {
+    "id": "sentence-su-mano-es-grande",
+    "type": "sentence",
+    "character": "su mano es grande",
+    "caseForm": "none",
+    "order": 9,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "su mano es grande",
+        "imageAlt": "Oración: su mano es grande"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "sentence-su-mano-es-grande",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "su mano es grande",
+        "instruction": "Lee la oración: su mano es grande.",
+        "instructionShort": "su mano es grande",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "sentence"
+    ],
+    "relatedIds": [
+      "word-su",
+      "word-mano",
+      "word-es",
+      "word-grande"
+    ],
+    "validation": "pending_validation",
+    "wordIds": [
+      "word-su",
+      "word-mano",
+      "word-es",
+      "word-grande"
+    ]
+  },
+  {
+    "id": "sentence-el-sol-es-rojo",
+    "type": "sentence",
+    "character": "el sol es rojo",
+    "caseForm": "none",
+    "order": 10,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "el sol es rojo",
+        "imageAlt": "Oración: el sol es rojo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "sentence-el-sol-es-rojo",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "el sol es rojo",
+        "instruction": "Lee la oración: el sol es rojo.",
+        "instructionShort": "el sol es rojo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "sentence"
+    ],
+    "relatedIds": [
+      "word-el",
+      "word-sol",
+      "word-es",
+      "word-rojo"
+    ],
+    "validation": "pending_validation",
+    "wordIds": [
+      "word-el",
+      "word-sol",
+      "word-es",
+      "word-rojo"
+    ]
+  }
+]

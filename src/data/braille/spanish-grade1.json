@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "system": "braille-es-grade1",
+    "cells": 6,
+    "validation": "pending_validation"
+  },
+  "glyphs": [
+    {
+      "id": "glyph-a",
+      "character": "a",
+      "dots": [
+        1
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-b",
+      "character": "b",
+      "dots": [
+        1,
+        2
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-c",
+      "character": "c",
+      "dots": [
+        1,
+        4
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-d",
+      "character": "d",
+      "dots": [
+        1,
+        4,
+        5
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-e",
+      "character": "e",
+      "dots": [
+        1,
+        5
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-f",
+      "character": "f",
+      "dots": [
+        1,
+        2,
+        4
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-g",
+      "character": "g",
+      "dots": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-h",
+      "character": "h",
+      "dots": [
+        1,
+        2,
+        5
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-i",
+      "character": "i",
+      "dots": [
+        2,
+        4
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-j",
+      "character": "j",
+      "dots": [
+        2,
+        4,
+        5
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-k",
+      "character": "k",
+      "dots": [
+        1,
+        3
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-l",
+      "character": "l",
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-m",
+      "character": "m",
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-n",
+      "character": "n",
+      "dots": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-o",
+      "character": "o",
+      "dots": [
+        1,
+        3,
+        5
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-p",
+      "character": "p",
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-q",
+      "character": "q",
+      "dots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-r",
+      "character": "r",
+      "dots": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-s",
+      "character": "s",
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-t",
+      "character": "t",
+      "dots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-u",
+      "character": "u",
+      "dots": [
+        1,
+        3,
+        6
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-v",
+      "character": "v",
+      "dots": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-w",
+      "character": "w",
+      "dots": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-x",
+      "character": "x",
+      "dots": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-y",
+      "character": "y",
+      "dots": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-z",
+      "character": "z",
+      "dots": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-ñ",
+      "character": "ñ",
+      "dots": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "category": "letter",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-á",
+      "character": "á",
+      "dots": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "category": "accent",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-é",
+      "character": "é",
+      "dots": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "category": "accent",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-í",
+      "character": "í",
+      "dots": [
+        3,
+        4
+      ],
+      "category": "accent",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-ó",
+      "character": "ó",
+      "dots": [
+        3,
+        4,
+        6
+      ],
+      "category": "accent",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-ú",
+      "character": "ú",
+      "dots": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "category": "accent",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-ü",
+      "character": "ü",
+      "dots": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "category": "accent",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-capital-sign",
+      "character": "capital",
+      "dots": [
+        4,
+        6
+      ],
+      "category": "prefix",
+      "prefixKind": "capital",
+      "validation": "pending_validation"
+    },
+    {
+      "id": "glyph-number-sign",
+      "character": "number",
+      "dots": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "category": "prefix",
+      "prefixKind": "number",
+      "validation": "pending_validation"
+    }
+  ]
+}

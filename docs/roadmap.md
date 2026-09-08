@@ -6,7 +6,7 @@ Diecisiete fases. Cada una deja el sitio compilando, testeado y desplegable. No 
 | ---- | ---------------------------------------------------------------------------- | ---------- |
 | 01   | Fundación: tooling, accesibilidad base y GitHub Pages                        | Completada |
 | 02   | Sistema de diseño accesible, preferencias globales y canal único de mensajes | Completada |
-| 03   | Sistema de componentes UI propios (sin librerías de UI)                      | Pendiente  |
+| 03   | Modelo de datos educativo, tabla Braille español y motor de contenido        | Completada |
 | 04   | Internacionalización español / quechua (`src/i18n`)                          | Pendiente  |
 | 05   | Módulo de contenido y alfabeto                                               | Pendiente  |
 | 06   | Braille en pantalla                                                          | Pendiente  |
@@ -22,4 +22,4 @@ Diecisiete fases. Cada una deja el sitio compilando, testeado y desplegable. No 
 | 16   | Rendimiento en dispositivos modestos                                         | Pendiente  |
 | 17   | Auditoría WCAG 2.1 AA y cierre de lanzamiento                                | Pendiente  |
 
-La Fase 02 ya rellena `[data-theme]`, `[data-motion]`, `[data-density]` y `[data-text-scale]` en `src/styles/tokens.css`. El detalle de preferencias y `say()` está en [accessibility.md](accessibility.md).
+La Fase 03 deja el contenido en JSON validado con Zod y consultable vía `ContentEngine`. El detalle está en [content-model.md](content-model.md) y [braille.md](braille.md).

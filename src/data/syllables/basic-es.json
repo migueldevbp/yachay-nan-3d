@@ -1,0 +1,2422 @@
+[
+  {
+    "id": "syllable-ma",
+    "type": "syllable",
+    "character": "ma",
+    "caseForm": "none",
+    "order": 1,
+    "difficulty": 2,
+    "phoneme": "ma",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ma",
+        "imageAlt": "Sílabas ma"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ma",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ma",
+        "instruction": "Esta es la sílaba ma.",
+        "instructionShort": "Sílaba ma",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-me",
+    "type": "syllable",
+    "character": "me",
+    "caseForm": "none",
+    "order": 2,
+    "difficulty": 2,
+    "phoneme": "me",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "me",
+        "imageAlt": "Sílabas me"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-me",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba me",
+        "instruction": "Esta es la sílaba me.",
+        "instructionShort": "Sílaba me",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-mi",
+    "type": "syllable",
+    "character": "mi",
+    "caseForm": "none",
+    "order": 3,
+    "difficulty": 2,
+    "phoneme": "mi",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mi",
+        "imageAlt": "Sílabas mi"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-mi",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba mi",
+        "instruction": "Esta es la sílaba mi.",
+        "instructionShort": "Sílaba mi",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-mo",
+    "type": "syllable",
+    "character": "mo",
+    "caseForm": "none",
+    "order": 4,
+    "difficulty": 2,
+    "phoneme": "mo",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mo",
+        "imageAlt": "Sílabas mo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-mo",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba mo",
+        "instruction": "Esta es la sílaba mo.",
+        "instructionShort": "Sílaba mo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-mu",
+    "type": "syllable",
+    "character": "mu",
+    "caseForm": "none",
+    "order": 5,
+    "difficulty": 2,
+    "phoneme": "mu",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mu",
+        "imageAlt": "Sílabas mu"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-mu",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba mu",
+        "instruction": "Esta es la sílaba mu.",
+        "instructionShort": "Sílaba mu",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-pa",
+    "type": "syllable",
+    "character": "pa",
+    "caseForm": "none",
+    "order": 6,
+    "difficulty": 2,
+    "phoneme": "pa",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "pa",
+        "imageAlt": "Sílabas pa"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-pa",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba pa",
+        "instruction": "Esta es la sílaba pa.",
+        "instructionShort": "Sílaba pa",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-pe",
+    "type": "syllable",
+    "character": "pe",
+    "caseForm": "none",
+    "order": 7,
+    "difficulty": 2,
+    "phoneme": "pe",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "pe",
+        "imageAlt": "Sílabas pe"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-pe",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba pe",
+        "instruction": "Esta es la sílaba pe.",
+        "instructionShort": "Sílaba pe",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-pi",
+    "type": "syllable",
+    "character": "pi",
+    "caseForm": "none",
+    "order": 8,
+    "difficulty": 2,
+    "phoneme": "pi",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "pi",
+        "imageAlt": "Sílabas pi"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-pi",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba pi",
+        "instruction": "Esta es la sílaba pi.",
+        "instructionShort": "Sílaba pi",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-po",
+    "type": "syllable",
+    "character": "po",
+    "caseForm": "none",
+    "order": 9,
+    "difficulty": 2,
+    "phoneme": "po",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "po",
+        "imageAlt": "Sílabas po"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-po",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba po",
+        "instruction": "Esta es la sílaba po.",
+        "instructionShort": "Sílaba po",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-pu",
+    "type": "syllable",
+    "character": "pu",
+    "caseForm": "none",
+    "order": 10,
+    "difficulty": 2,
+    "phoneme": "pu",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "pu",
+        "imageAlt": "Sílabas pu"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-pu",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba pu",
+        "instruction": "Esta es la sílaba pu.",
+        "instructionShort": "Sílaba pu",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-sa",
+    "type": "syllable",
+    "character": "sa",
+    "caseForm": "none",
+    "order": 11,
+    "difficulty": 2,
+    "phoneme": "sa",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "sa",
+        "imageAlt": "Sílabas sa"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-sa",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba sa",
+        "instruction": "Esta es la sílaba sa.",
+        "instructionShort": "Sílaba sa",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-se",
+    "type": "syllable",
+    "character": "se",
+    "caseForm": "none",
+    "order": 12,
+    "difficulty": 2,
+    "phoneme": "se",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "se",
+        "imageAlt": "Sílabas se"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-se",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba se",
+        "instruction": "Esta es la sílaba se.",
+        "instructionShort": "Sílaba se",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-si",
+    "type": "syllable",
+    "character": "si",
+    "caseForm": "none",
+    "order": 13,
+    "difficulty": 2,
+    "phoneme": "si",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "si",
+        "imageAlt": "Sílabas si"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-si",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba si",
+        "instruction": "Esta es la sílaba si.",
+        "instructionShort": "Sílaba si",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-so",
+    "type": "syllable",
+    "character": "so",
+    "caseForm": "none",
+    "order": 14,
+    "difficulty": 2,
+    "phoneme": "so",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "so",
+        "imageAlt": "Sílabas so"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-so",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba so",
+        "instruction": "Esta es la sílaba so.",
+        "instructionShort": "Sílaba so",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-su",
+    "type": "syllable",
+    "character": "su",
+    "caseForm": "none",
+    "order": 15,
+    "difficulty": 2,
+    "phoneme": "su",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "su",
+        "imageAlt": "Sílabas su"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-su",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba su",
+        "instruction": "Esta es la sílaba su.",
+        "instructionShort": "Sílaba su",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-la",
+    "type": "syllable",
+    "character": "la",
+    "caseForm": "none",
+    "order": 16,
+    "difficulty": 2,
+    "phoneme": "la",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "la",
+        "imageAlt": "Sílabas la"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-la",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba la",
+        "instruction": "Esta es la sílaba la.",
+        "instructionShort": "Sílaba la",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-le",
+    "type": "syllable",
+    "character": "le",
+    "caseForm": "none",
+    "order": 17,
+    "difficulty": 2,
+    "phoneme": "le",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "le",
+        "imageAlt": "Sílabas le"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-le",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba le",
+        "instruction": "Esta es la sílaba le.",
+        "instructionShort": "Sílaba le",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-li",
+    "type": "syllable",
+    "character": "li",
+    "caseForm": "none",
+    "order": 18,
+    "difficulty": 2,
+    "phoneme": "li",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "li",
+        "imageAlt": "Sílabas li"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-li",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba li",
+        "instruction": "Esta es la sílaba li.",
+        "instructionShort": "Sílaba li",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-lo",
+    "type": "syllable",
+    "character": "lo",
+    "caseForm": "none",
+    "order": 19,
+    "difficulty": 2,
+    "phoneme": "lo",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "lo",
+        "imageAlt": "Sílabas lo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-lo",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba lo",
+        "instruction": "Esta es la sílaba lo.",
+        "instructionShort": "Sílaba lo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-lu",
+    "type": "syllable",
+    "character": "lu",
+    "caseForm": "none",
+    "order": 20,
+    "difficulty": 2,
+    "phoneme": "lu",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "lu",
+        "imageAlt": "Sílabas lu"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-lu",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba lu",
+        "instruction": "Esta es la sílaba lu.",
+        "instructionShort": "Sílaba lu",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ta",
+    "type": "syllable",
+    "character": "ta",
+    "caseForm": "none",
+    "order": 21,
+    "difficulty": 2,
+    "phoneme": "ta",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ta",
+        "imageAlt": "Sílabas ta"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ta",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ta",
+        "instruction": "Esta es la sílaba ta.",
+        "instructionShort": "Sílaba ta",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-te",
+    "type": "syllable",
+    "character": "te",
+    "caseForm": "none",
+    "order": 22,
+    "difficulty": 2,
+    "phoneme": "te",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "te",
+        "imageAlt": "Sílabas te"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-te",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba te",
+        "instruction": "Esta es la sílaba te.",
+        "instructionShort": "Sílaba te",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ti",
+    "type": "syllable",
+    "character": "ti",
+    "caseForm": "none",
+    "order": 23,
+    "difficulty": 2,
+    "phoneme": "ti",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ti",
+        "imageAlt": "Sílabas ti"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ti",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ti",
+        "instruction": "Esta es la sílaba ti.",
+        "instructionShort": "Sílaba ti",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-to",
+    "type": "syllable",
+    "character": "to",
+    "caseForm": "none",
+    "order": 24,
+    "difficulty": 2,
+    "phoneme": "to",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "to",
+        "imageAlt": "Sílabas to"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-to",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba to",
+        "instruction": "Esta es la sílaba to.",
+        "instructionShort": "Sílaba to",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-tu",
+    "type": "syllable",
+    "character": "tu",
+    "caseForm": "none",
+    "order": 25,
+    "difficulty": 2,
+    "phoneme": "tu",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "tu",
+        "imageAlt": "Sílabas tu"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-tu",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba tu",
+        "instruction": "Esta es la sílaba tu.",
+        "instructionShort": "Sílaba tu",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-na",
+    "type": "syllable",
+    "character": "na",
+    "caseForm": "none",
+    "order": 26,
+    "difficulty": 2,
+    "phoneme": "na",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "na",
+        "imageAlt": "Sílabas na"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-na",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba na",
+        "instruction": "Esta es la sílaba na.",
+        "instructionShort": "Sílaba na",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ne",
+    "type": "syllable",
+    "character": "ne",
+    "caseForm": "none",
+    "order": 27,
+    "difficulty": 2,
+    "phoneme": "ne",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ne",
+        "imageAlt": "Sílabas ne"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ne",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ne",
+        "instruction": "Esta es la sílaba ne.",
+        "instructionShort": "Sílaba ne",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ni",
+    "type": "syllable",
+    "character": "ni",
+    "caseForm": "none",
+    "order": 28,
+    "difficulty": 2,
+    "phoneme": "ni",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ni",
+        "imageAlt": "Sílabas ni"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ni",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ni",
+        "instruction": "Esta es la sílaba ni.",
+        "instructionShort": "Sílaba ni",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-no",
+    "type": "syllable",
+    "character": "no",
+    "caseForm": "none",
+    "order": 29,
+    "difficulty": 2,
+    "phoneme": "no",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "no",
+        "imageAlt": "Sílabas no"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-no",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba no",
+        "instruction": "Esta es la sílaba no.",
+        "instructionShort": "Sílaba no",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-nu",
+    "type": "syllable",
+    "character": "nu",
+    "caseForm": "none",
+    "order": 30,
+    "difficulty": 2,
+    "phoneme": "nu",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "nu",
+        "imageAlt": "Sílabas nu"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-nu",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba nu",
+        "instruction": "Esta es la sílaba nu.",
+        "instructionShort": "Sílaba nu",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-da",
+    "type": "syllable",
+    "character": "da",
+    "caseForm": "none",
+    "order": 31,
+    "difficulty": 2,
+    "phoneme": "da",
+    "braille": {
+      "dots": [
+        1,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "da",
+        "imageAlt": "Sílabas da"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-da",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba da",
+        "instruction": "Esta es la sílaba da.",
+        "instructionShort": "Sílaba da",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-de",
+    "type": "syllable",
+    "character": "de",
+    "caseForm": "none",
+    "order": 32,
+    "difficulty": 2,
+    "phoneme": "de",
+    "braille": {
+      "dots": [
+        1,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "de",
+        "imageAlt": "Sílabas de"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-de",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba de",
+        "instruction": "Esta es la sílaba de.",
+        "instructionShort": "Sílaba de",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-di",
+    "type": "syllable",
+    "character": "di",
+    "caseForm": "none",
+    "order": 33,
+    "difficulty": 2,
+    "phoneme": "di",
+    "braille": {
+      "dots": [
+        1,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "di",
+        "imageAlt": "Sílabas di"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-di",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba di",
+        "instruction": "Esta es la sílaba di.",
+        "instructionShort": "Sílaba di",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-do",
+    "type": "syllable",
+    "character": "do",
+    "caseForm": "none",
+    "order": 34,
+    "difficulty": 2,
+    "phoneme": "do",
+    "braille": {
+      "dots": [
+        1,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "do",
+        "imageAlt": "Sílabas do"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-do",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba do",
+        "instruction": "Esta es la sílaba do.",
+        "instructionShort": "Sílaba do",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-du",
+    "type": "syllable",
+    "character": "du",
+    "caseForm": "none",
+    "order": 35,
+    "difficulty": 2,
+    "phoneme": "du",
+    "braille": {
+      "dots": [
+        1,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "du",
+        "imageAlt": "Sílabas du"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-du",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba du",
+        "instruction": "Esta es la sílaba du.",
+        "instructionShort": "Sílaba du",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ca",
+    "type": "syllable",
+    "character": "ca",
+    "caseForm": "none",
+    "order": 36,
+    "difficulty": 2,
+    "phoneme": "ca",
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ca",
+        "imageAlt": "Sílabas ca"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ca",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ca",
+        "instruction": "Esta es la sílaba ca.",
+        "instructionShort": "Sílaba ca",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ce",
+    "type": "syllable",
+    "character": "ce",
+    "caseForm": "none",
+    "order": 37,
+    "difficulty": 2,
+    "phoneme": "ce",
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ce",
+        "imageAlt": "Sílabas ce"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ce",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ce",
+        "instruction": "Esta es la sílaba ce.",
+        "instructionShort": "Sílaba ce",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ci",
+    "type": "syllable",
+    "character": "ci",
+    "caseForm": "none",
+    "order": 38,
+    "difficulty": 2,
+    "phoneme": "ci",
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ci",
+        "imageAlt": "Sílabas ci"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ci",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ci",
+        "instruction": "Esta es la sílaba ci.",
+        "instructionShort": "Sílaba ci",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-co",
+    "type": "syllable",
+    "character": "co",
+    "caseForm": "none",
+    "order": 39,
+    "difficulty": 2,
+    "phoneme": "co",
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "co",
+        "imageAlt": "Sílabas co"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-co",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba co",
+        "instruction": "Esta es la sílaba co.",
+        "instructionShort": "Sílaba co",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-cu",
+    "type": "syllable",
+    "character": "cu",
+    "caseForm": "none",
+    "order": 40,
+    "difficulty": 2,
+    "phoneme": "cu",
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "cu",
+        "imageAlt": "Sílabas cu"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-cu",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba cu",
+        "instruction": "Esta es la sílaba cu.",
+        "instructionShort": "Sílaba cu",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ba",
+    "type": "syllable",
+    "character": "ba",
+    "caseForm": "none",
+    "order": 41,
+    "difficulty": 2,
+    "phoneme": "ba",
+    "braille": {
+      "dots": [
+        1,
+        2
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ba",
+        "imageAlt": "Sílabas ba"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ba",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ba",
+        "instruction": "Esta es la sílaba ba.",
+        "instructionShort": "Sílaba ba",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-be",
+    "type": "syllable",
+    "character": "be",
+    "caseForm": "none",
+    "order": 42,
+    "difficulty": 2,
+    "phoneme": "be",
+    "braille": {
+      "dots": [
+        1,
+        2
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "be",
+        "imageAlt": "Sílabas be"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-be",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba be",
+        "instruction": "Esta es la sílaba be.",
+        "instructionShort": "Sílaba be",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-bi",
+    "type": "syllable",
+    "character": "bi",
+    "caseForm": "none",
+    "order": 43,
+    "difficulty": 2,
+    "phoneme": "bi",
+    "braille": {
+      "dots": [
+        1,
+        2
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "bi",
+        "imageAlt": "Sílabas bi"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-bi",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba bi",
+        "instruction": "Esta es la sílaba bi.",
+        "instructionShort": "Sílaba bi",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-bo",
+    "type": "syllable",
+    "character": "bo",
+    "caseForm": "none",
+    "order": 44,
+    "difficulty": 2,
+    "phoneme": "bo",
+    "braille": {
+      "dots": [
+        1,
+        2
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "bo",
+        "imageAlt": "Sílabas bo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-bo",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba bo",
+        "instruction": "Esta es la sílaba bo.",
+        "instructionShort": "Sílaba bo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-bu",
+    "type": "syllable",
+    "character": "bu",
+    "caseForm": "none",
+    "order": 45,
+    "difficulty": 2,
+    "phoneme": "bu",
+    "braille": {
+      "dots": [
+        1,
+        2
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "bu",
+        "imageAlt": "Sílabas bu"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-bu",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba bu",
+        "instruction": "Esta es la sílaba bu.",
+        "instructionShort": "Sílaba bu",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ra",
+    "type": "syllable",
+    "character": "ra",
+    "caseForm": "none",
+    "order": 46,
+    "difficulty": 2,
+    "phoneme": "ra",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ra",
+        "imageAlt": "Sílabas ra"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ra",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ra",
+        "instruction": "Esta es la sílaba ra.",
+        "instructionShort": "Sílaba ra",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-re",
+    "type": "syllable",
+    "character": "re",
+    "caseForm": "none",
+    "order": 47,
+    "difficulty": 2,
+    "phoneme": "re",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "re",
+        "imageAlt": "Sílabas re"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-re",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba re",
+        "instruction": "Esta es la sílaba re.",
+        "instructionShort": "Sílaba re",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ri",
+    "type": "syllable",
+    "character": "ri",
+    "caseForm": "none",
+    "order": 48,
+    "difficulty": 2,
+    "phoneme": "ri",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ri",
+        "imageAlt": "Sílabas ri"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ri",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ri",
+        "instruction": "Esta es la sílaba ri.",
+        "instructionShort": "Sílaba ri",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ro",
+    "type": "syllable",
+    "character": "ro",
+    "caseForm": "none",
+    "order": 49,
+    "difficulty": 2,
+    "phoneme": "ro",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ro",
+        "imageAlt": "Sílabas ro"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ro",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ro",
+        "instruction": "Esta es la sílaba ro.",
+        "instructionShort": "Sílaba ro",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "syllable-ru",
+    "type": "syllable",
+    "character": "ru",
+    "caseForm": "none",
+    "order": 50,
+    "difficulty": 2,
+    "phoneme": "ru",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ru",
+        "imageAlt": "Sílabas ru"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "syllable-ru",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Sílaba ru",
+        "instruction": "Esta es la sílaba ru.",
+        "instructionShort": "Sílaba ru",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "syllable"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  }
+]

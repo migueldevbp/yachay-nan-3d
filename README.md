@@ -4,7 +4,7 @@ Plataforma web educativa inclusiva y multisensorial. Conecta piezas físicas imp
 
 Corre **100 % en el navegador**, servida como sitio estático. No hay backend.
 
-**Estado actual: Fase 02 de 17.** Sistema de preferencias de acceso, primitivos UI y canal único de mensajes `say()`.
+**Estado actual: Fase 03 de 17.** Modelo de datos educativo, tabla Braille español (por validar) y ContentEngine.
 
 ## Stack
 
@@ -33,17 +33,18 @@ Abre la URL que imprime Vite (por defecto `http://localhost:5173`).
 
 Otros scripts:
 
-| Script               | Qué hace                               |
-| -------------------- | -------------------------------------- |
-| `npm run build`      | Typecheck + empaquetado de producción  |
-| `npm run preview`    | Sirve la carpeta `dist/`               |
-| `npm run lint`       | ESLint (cero warnings permitidos)      |
-| `npm run lint:fix`   | ESLint con correcciones automáticas    |
-| `npm run typecheck`  | TypeScript sin emitir archivos         |
-| `npm run test`       | Vitest en modo CI                      |
-| `npm run test:a11y`  | Tests de accesibilidad (axe + diálogo) |
-| `npm run test:watch` | Vitest en modo watch                   |
-| `npm run format`     | Prettier                               |
+| Script                     | Qué hace                               |
+| -------------------------- | -------------------------------------- |
+| `npm run build`            | Typecheck + empaquetado de producción  |
+| `npm run preview`          | Sirve la carpeta `dist/`               |
+| `npm run lint`             | ESLint (cero warnings permitidos)      |
+| `npm run lint:fix`         | ESLint con correcciones automáticas    |
+| `npm run typecheck`        | TypeScript sin emitir archivos         |
+| `npm run validate:content` | Valida JSON educativo con Zod          |
+| `npm run test`             | Vitest en modo CI                      |
+| `npm run test:a11y`        | Tests de accesibilidad (axe + diálogo) |
+| `npm run test:watch`       | Vitest en modo watch                   |
+| `npm run format`           | Prettier                               |
 
 ## Desplegar
 
@@ -67,6 +68,7 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 - Panel de ajustes persistente y Modo Tranquilo (con snapshot)
 - Canal único `say()`: lector de pantalla + subtítulos + punto de extensión de voz
 - Primitivos UI propios (botón, diálogo, toggle, radios, slider, badge)
+- Modelo de datos educativo en JSON, tabla Braille español (por validar) y ContentEngine
 - Landing mínima (inicio y página 404)
 - Lint, typecheck, tests de humo y axe
 - Despliegue automático a GitHub Pages
@@ -74,7 +76,6 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 ### EN DESARROLLO
 
 - Cámara, visión, voz real, Braille en pantalla y lengua de señas
-- Contenido educativo (alfabeto, números, sílabas, palabras, oraciones)
 - Actividades, progreso e i18n (español / quechua)
 
 ### VISIÓN FUTURA
@@ -88,6 +89,8 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 
 - [Arquitectura](docs/architecture.md)
 - [Accesibilidad](docs/accessibility.md)
+- [Modelo de contenido](docs/content-model.md)
+- [Braille](docs/braille.md)
 - [Despliegue](docs/deployment.md)
 - [Hoja de ruta](docs/roadmap.md)
 

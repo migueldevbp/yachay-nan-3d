@@ -1,0 +1,3376 @@
+[
+  {
+    "id": "word-casa",
+    "type": "word",
+    "character": "casa",
+    "caseForm": "none",
+    "order": 1,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "casa",
+        "imageAlt": "Una casa"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-casa",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "casa",
+        "instruction": "La palabra casa.",
+        "instructionShort": "casa",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "demo"
+    ],
+    "relatedIds": [
+      "syllable-ca",
+      "syllable-sa"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "ca",
+      "sa"
+    ],
+    "constituentChars": [
+      "C",
+      "A",
+      "S",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "C",
+      "A",
+      "S",
+      "A"
+    ],
+    "isDemoTarget": true
+  },
+  {
+    "id": "word-mesa",
+    "type": "word",
+    "character": "mesa",
+    "caseForm": "none",
+    "order": 2,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mesa",
+        "imageAlt": "Una mesa"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-mesa",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "mesa",
+        "instruction": "La palabra mesa.",
+        "instructionShort": "mesa",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-me",
+      "syllable-sa"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "me",
+      "sa"
+    ],
+    "constituentChars": [
+      "M",
+      "E",
+      "S",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "M",
+      "E",
+      "S",
+      "A"
+    ]
+  },
+  {
+    "id": "word-mama",
+    "type": "word",
+    "character": "mamá",
+    "caseForm": "none",
+    "order": 3,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mamá",
+        "imageAlt": "Una mamá"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-mama",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "mamá",
+        "instruction": "La palabra mamá.",
+        "instructionShort": "mamá",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-ma"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "ma",
+      "má"
+    ],
+    "constituentChars": [
+      "M",
+      "A",
+      "M",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "M",
+      "A",
+      "M",
+      "A"
+    ]
+  },
+  {
+    "id": "word-papa",
+    "type": "word",
+    "character": "papá",
+    "caseForm": "none",
+    "order": 4,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "papá",
+        "imageAlt": "Un papá"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-papa",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "papá",
+        "instruction": "La palabra papá.",
+        "instructionShort": "papá",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-pa"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "pa",
+      "pá"
+    ],
+    "constituentChars": [
+      "P",
+      "A",
+      "P",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "P",
+      "A",
+      "P",
+      "A"
+    ]
+  },
+  {
+    "id": "word-sol",
+    "type": "word",
+    "character": "sol",
+    "caseForm": "none",
+    "order": 5,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "sol",
+        "imageAlt": "El sol"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-sol",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "sol",
+        "instruction": "La palabra sol.",
+        "instructionShort": "sol",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "sol"
+    ],
+    "constituentChars": [
+      "S",
+      "O",
+      "L"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "S",
+      "O",
+      "L"
+    ]
+  },
+  {
+    "id": "word-luna",
+    "type": "word",
+    "character": "luna",
+    "caseForm": "none",
+    "order": 6,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "luna",
+        "imageAlt": "La luna"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-luna",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "luna",
+        "instruction": "La palabra luna.",
+        "instructionShort": "luna",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-lu",
+      "syllable-na"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "lu",
+      "na"
+    ],
+    "constituentChars": [
+      "L",
+      "U",
+      "N",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "L",
+      "U",
+      "N",
+      "A"
+    ]
+  },
+  {
+    "id": "word-mano",
+    "type": "word",
+    "character": "mano",
+    "caseForm": "none",
+    "order": 7,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mano",
+        "imageAlt": "Una mano"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-mano",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "mano",
+        "instruction": "La palabra mano.",
+        "instructionShort": "mano",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-ma",
+      "syllable-no"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "ma",
+      "no"
+    ],
+    "constituentChars": [
+      "M",
+      "A",
+      "N",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "M",
+      "A",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "id": "word-pato",
+    "type": "word",
+    "character": "pato",
+    "caseForm": "none",
+    "order": 8,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "pato",
+        "imageAlt": "Un pato"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-pato",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "pato",
+        "instruction": "La palabra pato.",
+        "instructionShort": "pato",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-pa",
+      "syllable-to"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "pa",
+      "to"
+    ],
+    "constituentChars": [
+      "P",
+      "A",
+      "T",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "P",
+      "A",
+      "T",
+      "O"
+    ]
+  },
+  {
+    "id": "word-gato",
+    "type": "word",
+    "character": "gato",
+    "caseForm": "none",
+    "order": 9,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "gato",
+        "imageAlt": "Un gato"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-gato",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "gato",
+        "instruction": "La palabra gato.",
+        "instructionShort": "gato",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-to"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "ga",
+      "to"
+    ],
+    "constituentChars": [
+      "G",
+      "A",
+      "T",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "G",
+      "A",
+      "T",
+      "O"
+    ]
+  },
+  {
+    "id": "word-cama",
+    "type": "word",
+    "character": "cama",
+    "caseForm": "none",
+    "order": 10,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "cama",
+        "imageAlt": "Una cama"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-cama",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "cama",
+        "instruction": "La palabra cama.",
+        "instructionShort": "cama",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-ca",
+      "syllable-ma"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "ca",
+      "ma"
+    ],
+    "constituentChars": [
+      "C",
+      "A",
+      "M",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "C",
+      "A",
+      "M",
+      "A"
+    ]
+  },
+  {
+    "id": "word-pan",
+    "type": "word",
+    "character": "pan",
+    "caseForm": "none",
+    "order": 11,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "pan",
+        "imageAlt": "Un pan"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-pan",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "pan",
+        "instruction": "La palabra pan.",
+        "instructionShort": "pan",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "pan"
+    ],
+    "constituentChars": [
+      "P",
+      "A",
+      "N"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "P",
+      "A",
+      "N"
+    ]
+  },
+  {
+    "id": "word-sal",
+    "type": "word",
+    "character": "sal",
+    "caseForm": "none",
+    "order": 12,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "sal",
+        "imageAlt": "Sal"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-sal",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "sal",
+        "instruction": "La palabra sal.",
+        "instructionShort": "sal",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "sal"
+    ],
+    "constituentChars": [
+      "S",
+      "A",
+      "L"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "S",
+      "A",
+      "L"
+    ]
+  },
+  {
+    "id": "word-mar",
+    "type": "word",
+    "character": "mar",
+    "caseForm": "none",
+    "order": 13,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mar",
+        "imageAlt": "El mar"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-mar",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "mar",
+        "instruction": "La palabra mar.",
+        "instructionShort": "mar",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "mar"
+    ],
+    "constituentChars": [
+      "M",
+      "A",
+      "R"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "M",
+      "A",
+      "R"
+    ]
+  },
+  {
+    "id": "word-libro",
+    "type": "word",
+    "character": "libro",
+    "caseForm": "none",
+    "order": 14,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "libro",
+        "imageAlt": "Un libro"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-libro",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "libro",
+        "instruction": "La palabra libro.",
+        "instructionShort": "libro",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-li"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "li",
+      "bro"
+    ],
+    "constituentChars": [
+      "L",
+      "I",
+      "B",
+      "R",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "L",
+      "I",
+      "B",
+      "R",
+      "O"
+    ]
+  },
+  {
+    "id": "word-nino",
+    "type": "word",
+    "character": "niño",
+    "caseForm": "none",
+    "order": 15,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "niño",
+        "imageAlt": "Un niño"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-nino",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "niño",
+        "instruction": "La palabra niño.",
+        "instructionShort": "niño",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-ni"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "ni",
+      "ño"
+    ],
+    "constituentChars": [
+      "N",
+      "I",
+      "Ñ",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "N",
+      "I",
+      "Ñ",
+      "O"
+    ]
+  },
+  {
+    "id": "word-perro",
+    "type": "word",
+    "character": "perro",
+    "caseForm": "none",
+    "order": 16,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "perro",
+        "imageAlt": "Un perro"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-perro",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "perro",
+        "instruction": "La palabra perro.",
+        "instructionShort": "perro",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-pe"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "pe",
+      "rro"
+    ],
+    "constituentChars": [
+      "P",
+      "E",
+      "R",
+      "R",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "P",
+      "E",
+      "R",
+      "R",
+      "O"
+    ]
+  },
+  {
+    "id": "word-flor",
+    "type": "word",
+    "character": "flor",
+    "caseForm": "none",
+    "order": 17,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "flor",
+        "imageAlt": "Una flor"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-flor",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "flor",
+        "instruction": "La palabra flor.",
+        "instructionShort": "flor",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "flor"
+    ],
+    "constituentChars": [
+      "F",
+      "L",
+      "O",
+      "R"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "F",
+      "L",
+      "O",
+      "R"
+    ]
+  },
+  {
+    "id": "word-agua",
+    "type": "word",
+    "character": "agua",
+    "caseForm": "none",
+    "order": 18,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "agua",
+        "imageAlt": "Agua"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-agua",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "agua",
+        "instruction": "La palabra agua.",
+        "instructionShort": "agua",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "a",
+      "gua"
+    ],
+    "constituentChars": [
+      "A",
+      "G",
+      "U",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "A",
+      "G",
+      "U",
+      "A"
+    ]
+  },
+  {
+    "id": "word-silla",
+    "type": "word",
+    "character": "silla",
+    "caseForm": "none",
+    "order": 19,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "silla",
+        "imageAlt": "Una silla"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-silla",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "silla",
+        "instruction": "La palabra silla.",
+        "instructionShort": "silla",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-si"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "si",
+      "lla"
+    ],
+    "constituentChars": [
+      "S",
+      "I",
+      "L",
+      "L",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "S",
+      "I",
+      "L",
+      "L",
+      "A"
+    ]
+  },
+  {
+    "id": "word-pelota",
+    "type": "word",
+    "character": "pelota",
+    "caseForm": "none",
+    "order": 20,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "pelota",
+        "imageAlt": "Una pelota"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-pelota",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "pelota",
+        "instruction": "La palabra pelota.",
+        "instructionShort": "pelota",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-pe",
+      "syllable-lo",
+      "syllable-ta"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "pe",
+      "lo",
+      "ta"
+    ],
+    "constituentChars": [
+      "P",
+      "E",
+      "L",
+      "O",
+      "T",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "P",
+      "E",
+      "L",
+      "O",
+      "T",
+      "A"
+    ]
+  },
+  {
+    "id": "word-boca",
+    "type": "word",
+    "character": "boca",
+    "caseForm": "none",
+    "order": 21,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        2
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "boca",
+        "imageAlt": "Una boca"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-boca",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "boca",
+        "instruction": "La palabra boca.",
+        "instructionShort": "boca",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-bo",
+      "syllable-ca"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "bo",
+      "ca"
+    ],
+    "constituentChars": [
+      "B",
+      "O",
+      "C",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "B",
+      "O",
+      "C",
+      "A"
+    ]
+  },
+  {
+    "id": "word-dedo",
+    "type": "word",
+    "character": "dedo",
+    "caseForm": "none",
+    "order": 22,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "dedo",
+        "imageAlt": "Un dedo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-dedo",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "dedo",
+        "instruction": "La palabra dedo.",
+        "instructionShort": "dedo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-de",
+      "syllable-do"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "de",
+      "do"
+    ],
+    "constituentChars": [
+      "D",
+      "E",
+      "D",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "D",
+      "E",
+      "D",
+      "O"
+    ]
+  },
+  {
+    "id": "word-oso",
+    "type": "word",
+    "character": "oso",
+    "caseForm": "none",
+    "order": 23,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "oso",
+        "imageAlt": "Un oso"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-oso",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "oso",
+        "instruction": "La palabra oso.",
+        "instructionShort": "oso",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-so"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "o",
+      "so"
+    ],
+    "constituentChars": [
+      "O",
+      "S",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "O",
+      "S",
+      "O"
+    ]
+  },
+  {
+    "id": "word-uva",
+    "type": "word",
+    "character": "uva",
+    "caseForm": "none",
+    "order": 24,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        6
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "uva",
+        "imageAlt": "Uvas"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-uva",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "uva",
+        "instruction": "La palabra uva.",
+        "instructionShort": "uva",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "u",
+      "va"
+    ],
+    "constituentChars": [
+      "U",
+      "V",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "U",
+      "V",
+      "A"
+    ]
+  },
+  {
+    "id": "word-sapo",
+    "type": "word",
+    "character": "sapo",
+    "caseForm": "none",
+    "order": 25,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "sapo",
+        "imageAlt": "Un sapo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-sapo",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "sapo",
+        "instruction": "La palabra sapo.",
+        "instructionShort": "sapo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-sa",
+      "syllable-po"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "sa",
+      "po"
+    ],
+    "constituentChars": [
+      "S",
+      "A",
+      "P",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "S",
+      "A",
+      "P",
+      "O"
+    ]
+  },
+  {
+    "id": "word-lata",
+    "type": "word",
+    "character": "lata",
+    "caseForm": "none",
+    "order": 26,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "lata",
+        "imageAlt": "Una lata"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-lata",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "lata",
+        "instruction": "La palabra lata.",
+        "instructionShort": "lata",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-la",
+      "syllable-ta"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "la",
+      "ta"
+    ],
+    "constituentChars": [
+      "L",
+      "A",
+      "T",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "L",
+      "A",
+      "T",
+      "A"
+    ]
+  },
+  {
+    "id": "word-mapa",
+    "type": "word",
+    "character": "mapa",
+    "caseForm": "none",
+    "order": 27,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mapa",
+        "imageAlt": "Un mapa"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-mapa",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "mapa",
+        "instruction": "La palabra mapa.",
+        "instructionShort": "mapa",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-ma",
+      "syllable-pa"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "ma",
+      "pa"
+    ],
+    "constituentChars": [
+      "M",
+      "A",
+      "P",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "M",
+      "A",
+      "P",
+      "A"
+    ]
+  },
+  {
+    "id": "word-nido",
+    "type": "word",
+    "character": "nido",
+    "caseForm": "none",
+    "order": 28,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "nido",
+        "imageAlt": "Un nido"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-nido",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "nido",
+        "instruction": "La palabra nido.",
+        "instructionShort": "nido",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-ni",
+      "syllable-do"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "ni",
+      "do"
+    ],
+    "constituentChars": [
+      "N",
+      "I",
+      "D",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "N",
+      "I",
+      "D",
+      "O"
+    ]
+  },
+  {
+    "id": "word-limon",
+    "type": "word",
+    "character": "limón",
+    "caseForm": "none",
+    "order": 29,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "limón",
+        "imageAlt": "Un limón"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-limon",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "limón",
+        "instruction": "La palabra limón.",
+        "instructionShort": "limón",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-li"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "li",
+      "món"
+    ],
+    "constituentChars": [
+      "L",
+      "I",
+      "M",
+      "O",
+      "N"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "L",
+      "I",
+      "M",
+      "O",
+      "N"
+    ]
+  },
+  {
+    "id": "word-puma",
+    "type": "word",
+    "character": "puma",
+    "caseForm": "none",
+    "order": 30,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "puma",
+        "imageAlt": "Un puma"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-puma",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "puma",
+        "instruction": "La palabra puma.",
+        "instructionShort": "puma",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-pu",
+      "syllable-ma"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "pu",
+      "ma"
+    ],
+    "constituentChars": [
+      "P",
+      "U",
+      "M",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "P",
+      "U",
+      "M",
+      "A"
+    ]
+  },
+  {
+    "id": "word-saco",
+    "type": "word",
+    "character": "saco",
+    "caseForm": "none",
+    "order": 31,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "saco",
+        "imageAlt": "Un saco"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-saco",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "saco",
+        "instruction": "La palabra saco.",
+        "instructionShort": "saco",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-sa",
+      "syllable-co"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "sa",
+      "co"
+    ],
+    "constituentChars": [
+      "S",
+      "A",
+      "C",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "S",
+      "A",
+      "C",
+      "O"
+    ]
+  },
+  {
+    "id": "word-loma",
+    "type": "word",
+    "character": "loma",
+    "caseForm": "none",
+    "order": 32,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "loma",
+        "imageAlt": "Una loma"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-loma",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "loma",
+        "instruction": "La palabra loma.",
+        "instructionShort": "loma",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-lo",
+      "syllable-ma"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "lo",
+      "ma"
+    ],
+    "constituentChars": [
+      "L",
+      "O",
+      "M",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "L",
+      "O",
+      "M",
+      "A"
+    ]
+  },
+  {
+    "id": "word-mas",
+    "type": "word",
+    "character": "más",
+    "caseForm": "none",
+    "order": 33,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "más",
+        "imageAlt": "El signo de más"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-mas",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "más",
+        "instruction": "La palabra más.",
+        "instructionShort": "más",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "más"
+    ],
+    "constituentChars": [
+      "M",
+      "A",
+      "S"
+    ],
+    "formableWithMvpPieces": true,
+    "requiredPieces": [
+      "M",
+      "A",
+      "S"
+    ]
+  },
+  {
+    "id": "word-el",
+    "type": "word",
+    "character": "el",
+    "caseForm": "none",
+    "order": 34,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "el",
+        "imageAlt": "Artículo el"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-el",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "el",
+        "instruction": "La palabra el.",
+        "instructionShort": "el",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "el"
+    ],
+    "constituentChars": [
+      "E",
+      "L"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "E",
+      "L"
+    ]
+  },
+  {
+    "id": "word-la",
+    "type": "word",
+    "character": "la",
+    "caseForm": "none",
+    "order": 35,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "la",
+        "imageAlt": "Artículo la"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-la",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "la",
+        "instruction": "La palabra la.",
+        "instructionShort": "la",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-la"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "la"
+    ],
+    "constituentChars": [
+      "L",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "L",
+      "A"
+    ]
+  },
+  {
+    "id": "word-un",
+    "type": "word",
+    "character": "un",
+    "caseForm": "none",
+    "order": 36,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        6
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "un",
+        "imageAlt": "Artículo un"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-un",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "un",
+        "instruction": "La palabra un.",
+        "instructionShort": "un",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "un"
+    ],
+    "constituentChars": [
+      "U",
+      "N"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "U",
+      "N"
+    ]
+  },
+  {
+    "id": "word-una",
+    "type": "word",
+    "character": "una",
+    "caseForm": "none",
+    "order": 37,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        6
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "una",
+        "imageAlt": "Artículo una"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-una",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "una",
+        "instruction": "La palabra una.",
+        "instructionShort": "una",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-na"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "u",
+      "na"
+    ],
+    "constituentChars": [
+      "U",
+      "N",
+      "A"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "U",
+      "N",
+      "A"
+    ]
+  },
+  {
+    "id": "word-es",
+    "type": "word",
+    "character": "es",
+    "caseForm": "none",
+    "order": 38,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "es",
+        "imageAlt": "Verbo es"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-es",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "es",
+        "instruction": "La palabra es.",
+        "instructionShort": "es",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "es"
+    ],
+    "constituentChars": [
+      "E",
+      "S"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "E",
+      "S"
+    ]
+  },
+  {
+    "id": "word-mi",
+    "type": "word",
+    "character": "mi",
+    "caseForm": "none",
+    "order": 39,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "mi",
+        "imageAlt": "Palabra mi"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-mi",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "mi",
+        "instruction": "La palabra mi.",
+        "instructionShort": "mi",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-mi"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "mi"
+    ],
+    "constituentChars": [
+      "M",
+      "I"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "M",
+      "I"
+    ]
+  },
+  {
+    "id": "word-su",
+    "type": "word",
+    "character": "su",
+    "caseForm": "none",
+    "order": 40,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "su",
+        "imageAlt": "Palabra su"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-su",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "su",
+        "instruction": "La palabra su.",
+        "instructionShort": "su",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-su"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "su"
+    ],
+    "constituentChars": [
+      "S",
+      "U"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "S",
+      "U"
+    ]
+  },
+  {
+    "id": "word-ve",
+    "type": "word",
+    "character": "ve",
+    "caseForm": "none",
+    "order": 41,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "ve",
+        "imageAlt": "Verbo ve"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-ve",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "ve",
+        "instruction": "La palabra ve.",
+        "instructionShort": "ve",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "ve"
+    ],
+    "constituentChars": [
+      "V",
+      "E"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "V",
+      "E"
+    ]
+  },
+  {
+    "id": "word-come",
+    "type": "word",
+    "character": "come",
+    "caseForm": "none",
+    "order": 42,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "come",
+        "imageAlt": "Verbo come"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-come",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "come",
+        "instruction": "La palabra come.",
+        "instructionShort": "come",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-co",
+      "syllable-me"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "co",
+      "me"
+    ],
+    "constituentChars": [
+      "C",
+      "O",
+      "M",
+      "E"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "C",
+      "O",
+      "M",
+      "E"
+    ]
+  },
+  {
+    "id": "word-tiene",
+    "type": "word",
+    "character": "tiene",
+    "caseForm": "none",
+    "order": 43,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "tiene",
+        "imageAlt": "Verbo tiene"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-tiene",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "tiene",
+        "instruction": "La palabra tiene.",
+        "instructionShort": "tiene",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-ne"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "tie",
+      "ne"
+    ],
+    "constituentChars": [
+      "T",
+      "I",
+      "E",
+      "N",
+      "E"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "T",
+      "I",
+      "E",
+      "N",
+      "E"
+    ]
+  },
+  {
+    "id": "word-en",
+    "type": "word",
+    "character": "en",
+    "caseForm": "none",
+    "order": 44,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "en",
+        "imageAlt": "Palabra en"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-en",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "en",
+        "instruction": "La palabra en.",
+        "instructionShort": "en",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation",
+    "syllables": [
+      "en"
+    ],
+    "constituentChars": [
+      "E",
+      "N"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "E",
+      "N"
+    ]
+  },
+  {
+    "id": "word-grande",
+    "type": "word",
+    "character": "grande",
+    "caseForm": "none",
+    "order": 45,
+    "difficulty": 3,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "grande",
+        "imageAlt": "Algo grande"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-grande",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "grande",
+        "instruction": "La palabra grande.",
+        "instructionShort": "grande",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-de"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "gran",
+      "de"
+    ],
+    "constituentChars": [
+      "G",
+      "R",
+      "A",
+      "N",
+      "D",
+      "E"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "G",
+      "R",
+      "A",
+      "N",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "id": "word-rojo",
+    "type": "word",
+    "character": "rojo",
+    "caseForm": "none",
+    "order": 46,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "associations": [
+      {
+        "word": "rojo",
+        "imageAlt": "Color rojo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "word-rojo",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "rojo",
+        "instruction": "La palabra rojo.",
+        "instructionShort": "rojo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "word"
+    ],
+    "relatedIds": [
+      "syllable-ro"
+    ],
+    "validation": "pending_validation",
+    "syllables": [
+      "ro",
+      "jo"
+    ],
+    "constituentChars": [
+      "R",
+      "O",
+      "J",
+      "O"
+    ],
+    "formableWithMvpPieces": false,
+    "requiredPieces": [
+      "R",
+      "O",
+      "J",
+      "O"
+    ]
+  }
+]

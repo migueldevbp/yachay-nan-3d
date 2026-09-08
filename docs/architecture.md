@@ -24,7 +24,7 @@ Sitio estático. Sin backend. Todo el código corre en el navegador.
 └──────────────────────────────────────────────────────────┘
 ```
 
-Los datos educativos viven en `src/data/*` y los assets estáticos en `public/`. Las cadenas de interfaz irán a `src/i18n/es` y `src/i18n/qu`.
+Los datos educativos viven en `src/data/*` (JSON versionado) y se consultan solo a través de `ContentEngine`. Los assets estáticos están en `public/`. Las cadenas de interfaz irán a `src/i18n/es` y `src/i18n/qu`. Ver [content-model.md](content-model.md) y [braille.md](braille.md).
 
 ## Regla de adaptadores
 

@@ -1,0 +1,1519 @@
+[
+  {
+    "id": "letter-upper-a",
+    "type": "letter",
+    "character": "A",
+    "caseForm": "uppercase",
+    "order": 1,
+    "difficulty": 1,
+    "phoneme": "a",
+    "braille": {
+      "dots": [
+        1
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "árbol",
+        "imageAlt": "Dibujo de un árbol"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-A",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": true,
+      "fiducialId": 1
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra A",
+        "instruction": "Esta es la letra A.",
+        "instructionShort": "Letra A",
+        "example": "árbol",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "mvp"
+    ],
+    "relatedIds": [
+      "letter-lower-a",
+      "word-casa",
+      "word-mesa",
+      "word-mama",
+      "word-papa",
+      "word-luna",
+      "word-mano"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-e",
+    "type": "letter",
+    "character": "E",
+    "caseForm": "uppercase",
+    "order": 2,
+    "difficulty": 1,
+    "phoneme": "e",
+    "braille": {
+      "dots": [
+        1,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "elefante",
+        "imageAlt": "Dibujo de un elefante"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-E",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra E",
+        "instruction": "Esta es la letra E.",
+        "instructionShort": "Letra E",
+        "example": "elefante",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-e",
+      "word-mesa",
+      "word-perro",
+      "word-pelota",
+      "word-dedo",
+      "word-el",
+      "word-es"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-i",
+    "type": "letter",
+    "character": "I",
+    "caseForm": "uppercase",
+    "order": 3,
+    "difficulty": 1,
+    "phoneme": "i",
+    "braille": {
+      "dots": [
+        2,
+        4
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "isla",
+        "imageAlt": "Dibujo de una isla"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-I",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra I",
+        "instruction": "Esta es la letra I.",
+        "instructionShort": "Letra I",
+        "example": "isla",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-i",
+      "word-libro",
+      "word-nino",
+      "word-silla",
+      "word-nido",
+      "word-limon",
+      "word-mi"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-o",
+    "type": "letter",
+    "character": "O",
+    "caseForm": "uppercase",
+    "order": 4,
+    "difficulty": 1,
+    "phoneme": "o",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "oso",
+        "imageAlt": "Dibujo de un oso"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-O",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra O",
+        "instruction": "Esta es la letra O.",
+        "instructionShort": "Letra O",
+        "example": "oso",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-o",
+      "word-sol",
+      "word-mano",
+      "word-pato",
+      "word-gato",
+      "word-libro",
+      "word-nino"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-u",
+    "type": "letter",
+    "character": "U",
+    "caseForm": "uppercase",
+    "order": 5,
+    "difficulty": 1,
+    "phoneme": "u",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        6
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "uva",
+        "imageAlt": "Dibujo de un racimo de uvas"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-U",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra U",
+        "instruction": "Esta es la letra U.",
+        "instructionShort": "Letra U",
+        "example": "uva",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-u",
+      "word-luna",
+      "word-agua",
+      "word-uva",
+      "word-puma",
+      "word-un",
+      "word-una"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-m",
+    "type": "letter",
+    "character": "M",
+    "caseForm": "uppercase",
+    "order": 6,
+    "difficulty": 2,
+    "phoneme": "m",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "mamá",
+        "imageAlt": "Dibujo de una madre"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-M",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": true,
+      "fiducialId": 4
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra M",
+        "instruction": "Esta es la letra M.",
+        "instructionShort": "Letra M",
+        "example": "mamá",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "mvp"
+    ],
+    "relatedIds": [
+      "letter-lower-m",
+      "syllable-ma",
+      "syllable-me",
+      "syllable-mi",
+      "syllable-mo",
+      "syllable-mu",
+      "word-mesa"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-p",
+    "type": "letter",
+    "character": "P",
+    "caseForm": "uppercase",
+    "order": 7,
+    "difficulty": 2,
+    "phoneme": "p",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "papá",
+        "imageAlt": "Dibujo de un padre"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-P",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra P",
+        "instruction": "Esta es la letra P.",
+        "instructionShort": "Letra P",
+        "example": "papá",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-p",
+      "syllable-pa",
+      "syllable-pe",
+      "syllable-pi",
+      "syllable-po",
+      "syllable-pu",
+      "word-papa"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-s",
+    "type": "letter",
+    "character": "S",
+    "caseForm": "uppercase",
+    "order": 8,
+    "difficulty": 2,
+    "phoneme": "s",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "sol",
+        "imageAlt": "Dibujo del sol"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-S",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": true,
+      "fiducialId": 5
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra S",
+        "instruction": "Esta es la letra S.",
+        "instructionShort": "Letra S",
+        "example": "sol",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "mvp"
+    ],
+    "relatedIds": [
+      "letter-lower-s",
+      "syllable-sa",
+      "syllable-se",
+      "syllable-si",
+      "syllable-so",
+      "syllable-su",
+      "word-casa"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-l",
+    "type": "letter",
+    "character": "L",
+    "caseForm": "uppercase",
+    "order": 9,
+    "difficulty": 2,
+    "phoneme": "l",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "luna",
+        "imageAlt": "Dibujo de la luna"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-L",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra L",
+        "instruction": "Esta es la letra L.",
+        "instructionShort": "Letra L",
+        "example": "luna",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-l",
+      "syllable-la",
+      "syllable-le",
+      "syllable-li",
+      "syllable-lo",
+      "syllable-lu",
+      "word-sol"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-t",
+    "type": "letter",
+    "character": "T",
+    "caseForm": "uppercase",
+    "order": 10,
+    "difficulty": 2,
+    "phoneme": "t",
+    "braille": {
+      "dots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "tomate",
+        "imageAlt": "Dibujo de un tomate"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-T",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra T",
+        "instruction": "Esta es la letra T.",
+        "instructionShort": "Letra T",
+        "example": "tomate",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-t",
+      "syllable-ta",
+      "syllable-te",
+      "syllable-ti",
+      "syllable-to",
+      "syllable-tu",
+      "word-pato"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-n",
+    "type": "letter",
+    "character": "N",
+    "caseForm": "uppercase",
+    "order": 11,
+    "difficulty": 2,
+    "phoneme": "n",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "nube",
+        "imageAlt": "Dibujo de una nube"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-N",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra N",
+        "instruction": "Esta es la letra N.",
+        "instructionShort": "Letra N",
+        "example": "nube",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-n",
+      "syllable-na",
+      "syllable-ne",
+      "syllable-ni",
+      "syllable-no",
+      "syllable-nu",
+      "word-luna"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-d",
+    "type": "letter",
+    "character": "D",
+    "caseForm": "uppercase",
+    "order": 12,
+    "difficulty": 2,
+    "phoneme": "d",
+    "braille": {
+      "dots": [
+        1,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "dedo",
+        "imageAlt": "Dibujo de un dedo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-D",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra D",
+        "instruction": "Esta es la letra D.",
+        "instructionShort": "Letra D",
+        "example": "dedo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-d",
+      "syllable-da",
+      "syllable-de",
+      "syllable-di",
+      "syllable-do",
+      "syllable-du",
+      "word-dedo"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-c",
+    "type": "letter",
+    "character": "C",
+    "caseForm": "uppercase",
+    "order": 13,
+    "difficulty": 3,
+    "phoneme": "k",
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "casa",
+        "imageAlt": "Dibujo de una casa"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-C",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": true,
+      "fiducialId": 3
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra C",
+        "instruction": "Esta es la letra C.",
+        "instructionShort": "Letra C",
+        "example": "casa",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "mvp"
+    ],
+    "relatedIds": [
+      "letter-lower-c",
+      "syllable-ca",
+      "syllable-ce",
+      "syllable-ci",
+      "syllable-co",
+      "syllable-cu",
+      "word-casa"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-b",
+    "type": "letter",
+    "character": "B",
+    "caseForm": "uppercase",
+    "order": 14,
+    "difficulty": 3,
+    "phoneme": "b",
+    "braille": {
+      "dots": [
+        1,
+        2
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "barco",
+        "imageAlt": "Dibujo de un barco"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-B",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": true,
+      "fiducialId": 2
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra B",
+        "instruction": "Esta es la letra B.",
+        "instructionShort": "Letra B",
+        "example": "barco",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "mvp"
+    ],
+    "relatedIds": [
+      "letter-lower-b",
+      "syllable-ba",
+      "syllable-be",
+      "syllable-bi",
+      "syllable-bo",
+      "syllable-bu",
+      "word-libro"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-r",
+    "type": "letter",
+    "character": "R",
+    "caseForm": "uppercase",
+    "order": 15,
+    "difficulty": 3,
+    "phoneme": "r",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "ratón",
+        "imageAlt": "Dibujo de un ratón"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-R",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra R",
+        "instruction": "Esta es la letra R.",
+        "instructionShort": "Letra R",
+        "example": "ratón",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-r",
+      "syllable-ra",
+      "syllable-re",
+      "syllable-ri",
+      "syllable-ro",
+      "syllable-ru",
+      "word-mar"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-f",
+    "type": "letter",
+    "character": "F",
+    "caseForm": "uppercase",
+    "order": 16,
+    "difficulty": 3,
+    "phoneme": "f",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        4
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "foca",
+        "imageAlt": "Dibujo de una foca"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-F",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra F",
+        "instruction": "Esta es la letra F.",
+        "instructionShort": "Letra F",
+        "example": "foca",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-f",
+      "word-flor"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-g",
+    "type": "letter",
+    "character": "G",
+    "caseForm": "uppercase",
+    "order": 17,
+    "difficulty": 3,
+    "phoneme": "g",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "gato",
+        "imageAlt": "Dibujo de un gato"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-G",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra G",
+        "instruction": "Esta es la letra G.",
+        "instructionShort": "Letra G",
+        "example": "gato",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-g",
+      "word-gato",
+      "word-agua",
+      "word-grande"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-h",
+    "type": "letter",
+    "character": "H",
+    "caseForm": "uppercase",
+    "order": 18,
+    "difficulty": 3,
+    "phoneme": "∅",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "hoja",
+        "imageAlt": "Dibujo de una hoja"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-H",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra H",
+        "instruction": "Esta es la letra H.",
+        "instructionShort": "Letra H",
+        "example": "hoja",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-h"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-j",
+    "type": "letter",
+    "character": "J",
+    "caseForm": "uppercase",
+    "order": 19,
+    "difficulty": 3,
+    "phoneme": "x",
+    "braille": {
+      "dots": [
+        2,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "jirafa",
+        "imageAlt": "Dibujo de una jirafa"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-J",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra J",
+        "instruction": "Esta es la letra J.",
+        "instructionShort": "Letra J",
+        "example": "jirafa",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-j",
+      "word-rojo"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-v",
+    "type": "letter",
+    "character": "V",
+    "caseForm": "uppercase",
+    "order": 20,
+    "difficulty": 3,
+    "phoneme": "b",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "vaca",
+        "imageAlt": "Dibujo de una vaca"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-V",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra V",
+        "instruction": "Esta es la letra V.",
+        "instructionShort": "Letra V",
+        "example": "vaca",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-v",
+      "word-uva",
+      "word-ve"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-ny",
+    "type": "letter",
+    "character": "Ñ",
+    "caseForm": "uppercase",
+    "order": 21,
+    "difficulty": 4,
+    "phoneme": "ɲ",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "ñandú",
+        "imageAlt": "Dibujo de un ñandú"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-Ñ",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra Ñ",
+        "instruction": "Esta es la letra Ñ.",
+        "instructionShort": "Letra Ñ",
+        "example": "ñandú",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-ny",
+      "word-nino"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-ll",
+    "type": "letter",
+    "character": "LL",
+    "caseForm": "uppercase",
+    "order": 22,
+    "difficulty": 4,
+    "phoneme": "ʝ",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "llave",
+        "imageAlt": "Dibujo de una llave"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-LL",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra LL",
+        "instruction": "Esta es la letra LL.",
+        "instructionShort": "Letra LL",
+        "example": "llave",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-ll",
+      "word-silla"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-ch",
+    "type": "letter",
+    "character": "CH",
+    "caseForm": "uppercase",
+    "order": 23,
+    "difficulty": 4,
+    "phoneme": "tʃ",
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "extraCells": [
+        [
+          1,
+          2,
+          5
+        ]
+      ],
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "chivo",
+        "imageAlt": "Dibujo de un chivo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-CH",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra CH",
+        "instruction": "Esta es la letra CH.",
+        "instructionShort": "Letra CH",
+        "example": "chivo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-ch"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-q",
+    "type": "letter",
+    "character": "Q",
+    "caseForm": "uppercase",
+    "order": 24,
+    "difficulty": 4,
+    "phoneme": "k",
+    "braille": {
+      "dots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "queso",
+        "imageAlt": "Dibujo de un queso"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-Q",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra Q",
+        "instruction": "Esta es la letra Q.",
+        "instructionShort": "Letra Q",
+        "example": "queso",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-q"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-y",
+    "type": "letter",
+    "character": "Y",
+    "caseForm": "uppercase",
+    "order": 25,
+    "difficulty": 4,
+    "phoneme": "ʝ",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "yoyo",
+        "imageAlt": "Dibujo de un yoyo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-Y",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra Y",
+        "instruction": "Esta es la letra Y.",
+        "instructionShort": "Letra Y",
+        "example": "yoyo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-y"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-z",
+    "type": "letter",
+    "character": "Z",
+    "caseForm": "uppercase",
+    "order": 26,
+    "difficulty": 4,
+    "phoneme": "s",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "zapato",
+        "imageAlt": "Dibujo de un zapato"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-Z",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra Z",
+        "instruction": "Esta es la letra Z.",
+        "instructionShort": "Letra Z",
+        "example": "zapato",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-z"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-x",
+    "type": "letter",
+    "character": "X",
+    "caseForm": "uppercase",
+    "order": 27,
+    "difficulty": 5,
+    "phoneme": "ks",
+    "braille": {
+      "dots": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "xilófono",
+        "imageAlt": "Dibujo de un xilófono"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-X",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra X",
+        "instruction": "Esta es la letra X.",
+        "instructionShort": "Letra X",
+        "example": "xilófono",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-x"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-k",
+    "type": "letter",
+    "character": "K",
+    "caseForm": "uppercase",
+    "order": 28,
+    "difficulty": 5,
+    "phoneme": "k",
+    "braille": {
+      "dots": [
+        1,
+        3
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "kilo",
+        "imageAlt": "Dibujo de una balanza de un kilo"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-K",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra K",
+        "instruction": "Esta es la letra K.",
+        "instructionShort": "Letra K",
+        "example": "kilo",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-k"
+    ],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "letter-upper-w",
+    "type": "letter",
+    "character": "W",
+    "caseForm": "uppercase",
+    "order": 29,
+    "difficulty": 5,
+    "phoneme": "w",
+    "braille": {
+      "dots": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "capital"
+      ]
+    },
+    "associations": [
+      {
+        "word": "kiwi",
+        "imageAlt": "Dibujo de un kiwi"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "letter-W",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Letra W",
+        "instruction": "Esta es la letra W.",
+        "instructionShort": "Letra W",
+        "example": "kiwi",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "alphabet"
+    ],
+    "relatedIds": [
+      "letter-lower-w"
+    ],
+    "validation": "pending_validation"
+  }
+]

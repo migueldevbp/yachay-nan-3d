@@ -1,0 +1,437 @@
+[
+  {
+    "id": "number-1",
+    "type": "number",
+    "character": "1",
+    "caseForm": "none",
+    "order": 1,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "number"
+      ]
+    },
+    "associations": [
+      {
+        "word": "1",
+        "imageAlt": "Cantidad 1"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "number-1",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Número 1",
+        "instruction": "Este es el número 1.",
+        "instructionShort": "Número 1",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "number"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "number-2",
+    "type": "number",
+    "character": "2",
+    "caseForm": "none",
+    "order": 2,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        2
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "number"
+      ]
+    },
+    "associations": [
+      {
+        "word": "2",
+        "imageAlt": "Cantidad 2"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "number-2",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Número 2",
+        "instruction": "Este es el número 2.",
+        "instructionShort": "Número 2",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "number"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "number-3",
+    "type": "number",
+    "character": "3",
+    "caseForm": "none",
+    "order": 3,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        4
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "number"
+      ]
+    },
+    "associations": [
+      {
+        "word": "3",
+        "imageAlt": "Cantidad 3"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "number-3",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Número 3",
+        "instruction": "Este es el número 3.",
+        "instructionShort": "Número 3",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "number"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "number-4",
+    "type": "number",
+    "character": "4",
+    "caseForm": "none",
+    "order": 4,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "number"
+      ]
+    },
+    "associations": [
+      {
+        "word": "4",
+        "imageAlt": "Cantidad 4"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "number-4",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Número 4",
+        "instruction": "Este es el número 4.",
+        "instructionShort": "Número 4",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "number"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "number-5",
+    "type": "number",
+    "character": "5",
+    "caseForm": "none",
+    "order": 5,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "number"
+      ]
+    },
+    "associations": [
+      {
+        "word": "5",
+        "imageAlt": "Cantidad 5"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "number-5",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Número 5",
+        "instruction": "Este es el número 5.",
+        "instructionShort": "Número 5",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "number"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "number-6",
+    "type": "number",
+    "character": "6",
+    "caseForm": "none",
+    "order": 6,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        4
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "number"
+      ]
+    },
+    "associations": [
+      {
+        "word": "6",
+        "imageAlt": "Cantidad 6"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "number-6",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Número 6",
+        "instruction": "Este es el número 6.",
+        "instructionShort": "Número 6",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "number"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "number-7",
+    "type": "number",
+    "character": "7",
+    "caseForm": "none",
+    "order": 7,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "number"
+      ]
+    },
+    "associations": [
+      {
+        "word": "7",
+        "imageAlt": "Cantidad 7"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "number-7",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Número 7",
+        "instruction": "Este es el número 7.",
+        "instructionShort": "Número 7",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "number"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "number-8",
+    "type": "number",
+    "character": "8",
+    "caseForm": "none",
+    "order": 8,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        1,
+        2,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "number"
+      ]
+    },
+    "associations": [
+      {
+        "word": "8",
+        "imageAlt": "Cantidad 8"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "number-8",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Número 8",
+        "instruction": "Este es el número 8.",
+        "instructionShort": "Número 8",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "number"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "number-9",
+    "type": "number",
+    "character": "9",
+    "caseForm": "none",
+    "order": 9,
+    "difficulty": 1,
+    "braille": {
+      "dots": [
+        2,
+        4
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "number"
+      ]
+    },
+    "associations": [
+      {
+        "word": "9",
+        "imageAlt": "Cantidad 9"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "number-9",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Número 9",
+        "instruction": "Este es el número 9.",
+        "instructionShort": "Número 9",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "number"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  },
+  {
+    "id": "number-0",
+    "type": "number",
+    "character": "0",
+    "caseForm": "none",
+    "order": 10,
+    "difficulty": 2,
+    "braille": {
+      "dots": [
+        2,
+        4,
+        5
+      ],
+      "validation": "pending_validation",
+      "prefixes": [
+        "number"
+      ]
+    },
+    "associations": [
+      {
+        "word": "0",
+        "imageAlt": "Cantidad 0"
+      }
+    ],
+    "media": {},
+    "vision": {
+      "modelClass": "number-0",
+      "minConfidence": 0.7,
+      "hasPhysicalPiece": false
+    },
+    "i18n": {
+      "es": {
+        "name": "Número 0",
+        "instruction": "Este es el número 0.",
+        "instructionShort": "Número 0",
+        "validation": "pending_validation"
+      }
+    },
+    "tags": [
+      "number"
+    ],
+    "relatedIds": [],
+    "validation": "pending_validation"
+  }
+]
