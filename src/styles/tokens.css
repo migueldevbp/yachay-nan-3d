@@ -1,10 +1,8 @@
-:root {
+:root,
+[data-theme='light'] {
   /*
-    Contraste verificado sobre el fondo por defecto (--color-bg #f4f0e8):
-    --color-text #1c1917 ≈ 13.5:1
-    --color-text-muted #44403c ≈ 8.2:1
-    --color-primary #0b5344 con --color-primary-contrast #ffffff ≈ 8.4:1
-    --color-success / --color-warning / --color-danger como texto sobre fondo ≥ 4.5:1
+    Contraste sobre --color-bg #f4f0e8:
+    texto 15.4:1 · muted 9.0:1 · primary/blanco 9.0:1
   */
   --color-bg: #f4f0e8;
   --color-surface: #ffffff;
@@ -17,22 +15,90 @@
   --color-warning: #854d0e;
   --color-danger: #b42318;
   --color-border: #d6d3d1;
+  --color-overlay: rgb(28 25 23 / 0.55);
   --font-size-base: 1.125rem;
   --radius: 0.5rem;
   --spacing-unit: 0.5rem;
   --motion-duration: 200ms;
+  --touch-min: 2.75rem;
 }
 
-/* FASE 02: tema de alto contraste */
+[data-theme='dark'] {
+  /*
+    Contraste sobre --color-bg #1c1917:
+    texto ~15:1 · muted ≥ 4.5:1 · primary sobre fondo ≥ 4.5:1
+  */
+  --color-bg: #1c1917;
+  --color-surface: #292524;
+  --color-text: #fafaf9;
+  --color-text-muted: #d6d3d1;
+  --color-primary: #5eead4;
+  --color-primary-contrast: #1c1917;
+  --color-focus: #93c5fd;
+  --color-success: #86efac;
+  --color-warning: #fcd34d;
+  --color-danger: #fca5a5;
+  --color-border: #57534e;
+  --color-overlay: rgb(0 0 0 / 0.72);
+}
+
 [data-theme='high-contrast'] {
+  /*
+    Contraste AAA de texto principal: blanco sobre negro = 21:1 (≥ 7:1).
+    Enlaces y foco también ≥ 7:1.
+  */
+  --color-bg: #000000;
+  --color-surface: #000000;
+  --color-text: #ffffff;
+  --color-text-muted: #ffffff;
+  --color-primary: #ffff00;
+  --color-primary-contrast: #000000;
+  --color-focus: #00ffff;
+  --color-success: #00ff00;
+  --color-warning: #ffff00;
+  --color-danger: #ffb4b4;
+  --color-border: #ffffff;
+  --color-overlay: rgb(0 0 0 / 0.85);
 }
 
-/* FASE 02: movimiento reducido explícito */
-[data-motion='reduced'] {
+html[data-text-scale='100'] {
+  --font-size-base: 1.125rem;
 }
 
-/* FASE 02: densidad calmada de la interfaz */
-[data-density='calm'] {
+html[data-text-scale='125'] {
+  --font-size-base: 1.40625rem;
+}
+
+html[data-text-scale='150'] {
+  --font-size-base: 1.6875rem;
+}
+
+html[data-text-scale='200'] {
+  --font-size-base: 2.25rem;
+}
+
+html[data-motion='reduced'] {
+  --motion-duration: 80ms;
+}
+
+html[data-motion='none'] {
+  --motion-duration: 0.01ms;
+}
+
+html[data-motion='none'] *,
+html[data-motion='none'] *::before,
+html[data-motion='none'] *::after {
+  animation: none !important;
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition: none !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+html[data-density='calm'] {
+  --spacing-unit: 0.75rem;
+  --radius: 0.75rem;
 }
 
 @media (prefers-reduced-motion: reduce) {

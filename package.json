@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Plataforma web educativa inclusiva multisensorial. Fase 01: fundación.",
+  "description": "Plataforma web educativa inclusiva multisensorial. Fase 02: accesibilidad.",
   "scripts": {
     "dev": "vite",
     "build": "npm run typecheck && vite build",
@@ -12,6 +12,7 @@
     "lint:fix": "eslint . --ext ts,tsx --fix",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
+    "test:a11y": "vitest run tests/accessibility tests/ui",
     "test:watch": "vitest",
     "format": "prettier --write ."
   },
@@ -29,6 +30,7 @@
     "@typescript-eslint/parser": "^7.18.0",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
+    "axe-core": "^4.13.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
@@ -39,6 +41,7 @@
     "tailwindcss": "^3.4.16",
     "typescript": "~5.6.3",
     "vite": "^5.4.11",
-    "vitest": "^2.1.8"
+    "vitest": "^2.1.8",
+    "vitest-axe": "^0.1.0"
   }
 }

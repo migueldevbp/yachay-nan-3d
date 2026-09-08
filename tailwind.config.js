@@ -24,6 +24,13 @@ export default {
       },
       spacing: {
         unit: 'var(--spacing-unit)',
+        touch: 'var(--touch-min)',
+      },
+      minHeight: {
+        touch: 'var(--touch-min)',
+      },
+      minWidth: {
+        touch: 'var(--touch-min)',
       },
       transitionDuration: {
         DEFAULT: 'var(--motion-duration)',

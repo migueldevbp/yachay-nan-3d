@@ -10,7 +10,7 @@ export function HomePage() {
         navegador, sin servidor propio.
       </p>
       <p className="phase-banner" role="status">
-        Proyecto en desarrollo — Fase 01
+        Proyecto en desarrollo — Fase 02
       </p>
     </>
   );

@@ -4,4 +4,5 @@
  */
 
 /** Cortesía del anunciador para lectores de pantalla. */
-export type AnnouncerPoliteness = 'polite' | 'assertive';
+export type { AnnouncerUrgency as AnnouncerPoliteness } from '@/modules/accessibility/types';
+export type { AccessibilityPreferences } from '@/modules/accessibility/types';

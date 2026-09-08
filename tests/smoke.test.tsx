@@ -28,7 +28,13 @@ describe('humo de la aplicación', () => {
       document.querySelectorAll<HTMLElement>(
         'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',
       ),
-    );
+    ).filter((element) => {
+      const dialog = element.closest('dialog');
+      if (dialog && !dialog.hasAttribute('open')) {
+        return false;
+      }
+      return true;
+    });
     expect(tabbable[0]).toBe(skipLink);
 
     skipLink.click();

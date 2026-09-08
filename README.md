@@ -4,7 +4,7 @@ Plataforma web educativa inclusiva y multisensorial. Conecta piezas físicas imp
 
 Corre **100 % en el navegador**, servida como sitio estático. No hay backend.
 
-**Estado actual: Fase 01 de 17.** Solo el esqueleto del proyecto, el tooling y el despliegue a GitHub Pages.
+**Estado actual: Fase 02 de 17.** Sistema de preferencias de acceso, primitivos UI y canal único de mensajes `say()`.
 
 ## Stack
 
@@ -33,16 +33,17 @@ Abre la URL que imprime Vite (por defecto `http://localhost:5173`).
 
 Otros scripts:
 
-| Script               | Qué hace                              |
-| -------------------- | ------------------------------------- |
-| `npm run build`      | Typecheck + empaquetado de producción |
-| `npm run preview`    | Sirve la carpeta `dist/`              |
-| `npm run lint`       | ESLint (cero warnings permitidos)     |
-| `npm run lint:fix`   | ESLint con correcciones automáticas   |
-| `npm run typecheck`  | TypeScript sin emitir archivos        |
-| `npm run test`       | Vitest en modo CI                     |
-| `npm run test:watch` | Vitest en modo watch                  |
-| `npm run format`     | Prettier                              |
+| Script               | Qué hace                               |
+| -------------------- | -------------------------------------- |
+| `npm run build`      | Typecheck + empaquetado de producción  |
+| `npm run preview`    | Sirve la carpeta `dist/`               |
+| `npm run lint`       | ESLint (cero warnings permitidos)      |
+| `npm run lint:fix`   | ESLint con correcciones automáticas    |
+| `npm run typecheck`  | TypeScript sin emitir archivos         |
+| `npm run test`       | Vitest en modo CI                      |
+| `npm run test:a11y`  | Tests de accesibilidad (axe + diálogo) |
+| `npm run test:watch` | Vitest en modo watch                   |
+| `npm run format`     | Prettier                               |
 
 ## Desplegar
 
@@ -61,15 +62,18 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 ### YA FUNCIONA
 
 - Esqueleto React + Vite + TypeScript + Tailwind
-- Layout semántico con skip link, foco visible y anunciador vacío para lectores de pantalla
+- Layout semántico con skip link, foco visible y anunciador `aria-live`
+- Preferencias de acceso globales (tema, texto, movimiento, sonido, voz, subtítulos, Braille, señas, densidad, ritmo, idioma)
+- Panel de ajustes persistente y Modo Tranquilo (con snapshot)
+- Canal único `say()`: lector de pantalla + subtítulos + punto de extensión de voz
+- Primitivos UI propios (botón, diálogo, toggle, radios, slider, badge)
 - Landing mínima (inicio y página 404)
-- Lint, typecheck y test de humo
-- Despliegue automático a GitHub Pages (cuando Pages esté activado)
+- Lint, typecheck, tests de humo y axe
+- Despliegue automático a GitHub Pages
 
 ### EN DESARROLLO
 
-- Preferencias de accesibilidad (alto contraste, movimiento, densidad)
-- Cámara, visión, voz, Braille en pantalla y lengua de señas
+- Cámara, visión, voz real, Braille en pantalla y lengua de señas
 - Contenido educativo (alfabeto, números, sílabas, palabras, oraciones)
 - Actividades, progreso e i18n (español / quechua)
 
@@ -83,6 +87,7 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 ## Documentación
 
 - [Arquitectura](docs/architecture.md)
+- [Accesibilidad](docs/accessibility.md)
 - [Despliegue](docs/deployment.md)
 - [Hoja de ruta](docs/roadmap.md)
 

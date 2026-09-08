@@ -42,7 +42,7 @@ GitHub Pages no reescribe rutas del servidor. Se usa `createHashRouter`: las URL
 
 Todos los colores, radios, tamaños y duraciones salen de variables CSS en `src/styles/tokens.css`. En componentes se usa `var(--...)` o las clases de Tailwind mapeadas a esas variables. No hay colores literales en la UI.
 
-Selectores `[data-theme="high-contrast"]`, `[data-motion="reduced"]` y `[data-density="calm"]` están reservados para la Fase 02. No hay lógica de modos todavía.
+Selectores `[data-theme]`, `[data-motion]`, `[data-density]` y `[data-text-scale]` los escribe `applyPreferences`. El CSS reacciona; no hay estilos condicionales en JavaScript. Ver [accessibility.md](accessibility.md).
 
 ## Foco visible (norma del proyecto)
 
