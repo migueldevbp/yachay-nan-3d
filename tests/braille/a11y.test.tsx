@@ -117,7 +117,7 @@ describe('accesibilidad Braille', () => {
     expect(document.querySelector('.braille-explorer--calm')).not.toBeNull();
   });
 
-  it('la página Braille tiene las tres pestañas', () => {
+  it('la página Braille tiene las pestañas incluyendo escritura', () => {
     renderScreen(<BraillePage />);
     const tablist = screen.getByRole('tablist');
     expect(
@@ -128,6 +128,9 @@ describe('accesibilidad Braille', () => {
     ).toBeTruthy();
     expect(
       within(tablist).getByRole('tab', { name: brailleEs.tabPractice }),
+    ).toBeTruthy();
+    expect(
+      within(tablist).getByRole('tab', { name: brailleEs.tabWriting }),
     ).toBeTruthy();
   });
 });

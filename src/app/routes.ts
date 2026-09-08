@@ -1,10 +1,11 @@
-export const APP_PHASE = '05';
+export const APP_PHASE = '05b';
 
 export const ROUTE_PATHS = {
   home: '/',
   alphabet: '/alfabeto',
   numbers: '/numeros',
   braille: '/braille',
+  brailleWriting: '/braille/escritura',
   signs: '/senas',
   camera: '/camara',
   activities: '/actividades',
@@ -65,11 +66,12 @@ export const PAGE_ROUTES = [
 
 export const BREADCRUMB_LABEL_KEY: Record<
   Exclude<RoutePath, '/'>,
-  NavItemKey | 'about' | 'privacy'
+  NavItemKey | 'about' | 'privacy' | 'brailleWriting'
 > = {
   [ROUTE_PATHS.alphabet]: 'alphabet',
   [ROUTE_PATHS.numbers]: 'numbers',
   [ROUTE_PATHS.braille]: 'braille',
+  [ROUTE_PATHS.brailleWriting]: 'brailleWriting',
   [ROUTE_PATHS.signs]: 'signs',
   [ROUTE_PATHS.camera]: 'camera',
   [ROUTE_PATHS.activities]: 'activities',

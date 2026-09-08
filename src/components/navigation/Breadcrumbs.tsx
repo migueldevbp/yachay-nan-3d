@@ -23,6 +23,8 @@ export function Breadcrumbs() {
     return null;
   }
 
+  const writing = path === ROUTE_PATHS.brailleWriting;
+
   return (
     <nav className="breadcrumbs" aria-label={tCommon('breadcrumbs')}>
       <ol className="breadcrumbs__list">
@@ -31,6 +33,13 @@ export function Breadcrumbs() {
             {tCommon('breadcrumbHome')}
           </Link>
         </li>
+        {writing ? (
+          <li>
+            <Link to={ROUTE_PATHS.braille} onClick={guardClick}>
+              {t('braille')}
+            </Link>
+          </li>
+        ) : null}
         <li aria-current="page">{t(key)}</li>
       </ol>
     </nav>

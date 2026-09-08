@@ -1,4 +1,11 @@
-export type PracticeMode = 'letter-to-braille' | 'braille-to-letter';
+export type PracticeMode =
+  | 'letter-to-braille'
+  | 'braille-to-letter'
+  | 'slate-writing'
+  | 'perkins-writing'
+  | 'dictation'
+  | 'physical-slate'
+  | 'learn-mirror';
 
 /**
  * Resultado de una tanda de práctica.

@@ -29,6 +29,10 @@ La página `/#/braille` tiene tres pantallas. La celda nunca es solo un dibujo: 
 
 El `StatusBadge` de **Por validar** es permanente en la referencia. No se marca `validated` sin acta de revisión.
 
+## Escritura (Fase 05B)
+
+La ruta `/#/braille/escritura` enseña regleta (espejo) y Perkins. Detalle y estado **por validar** en [braille-writing.md](braille-writing.md). Reutiliza `BrailleEngine`, `BrailleCell` y `say()`.
+
 ## Progreso (punto de extensión, Fase 15)
 
 `BraillePractice` emite `onActivityComplete({ mode, correct, total })` al terminar una tanda. No guarda nada en el dispositivo. El módulo de progreso de la Fase 15 debe suscribirse a ese evento.

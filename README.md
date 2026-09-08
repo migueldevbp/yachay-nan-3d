@@ -4,7 +4,7 @@ Plataforma web educativa inclusiva y multisensorial. Conecta piezas físicas imp
 
 Corre **100 % en el navegador**, servida como sitio estático. No hay backend.
 
-**Estado actual: Fase 05 de 17.** Módulo Braille accesible: celda SVG, tabla de referencia (por validar) y práctica bidireccional.
+**Estado actual: Fase 05B de 17.** Escritura Braille con regleta (espejo) y máquina Perkins, además del módulo de lectura de la Fase 05.
 
 ## Stack
 
@@ -72,6 +72,7 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 - Landing con las 13 secciones, páginas placeholder honestas y estado del proyecto
 - Internacionalización propia es/qu (sin i18next); quechua vacío a la espera de validación
 - Módulo Braille: celda SVG con etiqueta para lector de pantalla, referencia por validar y práctica con teclado
+- Escritura Braille: regleta virtual con espejo, Perkins con acordes, dictado y práctica con regleta física (método por validar)
 - Lint, typecheck, tests de humo, i18n, enrutado, Braille y axe
 - Despliegue automático a GitHub Pages
 
@@ -94,6 +95,7 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 - [Internacionalización](docs/i18n.md)
 - [Modelo de contenido](docs/content-model.md)
 - [Braille](docs/braille.md)
+- [Escritura Braille](docs/braille-writing.md)
 - [Despliegue](docs/deployment.md)
 - [Hoja de ruta](docs/roadmap.md)
 

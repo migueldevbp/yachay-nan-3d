@@ -8,6 +8,7 @@ import { AboutPage } from '@/pages/AboutPage';
 import { ActivitiesPage } from '@/pages/ActivitiesPage';
 import { AlphabetPage } from '@/pages/AlphabetPage';
 import { BraillePage } from '@/pages/BraillePage';
+import { BrailleWriting } from '@/pages/braille/BrailleWriting';
 import { CameraPage } from '@/pages/CameraPage';
 import { HomePage } from '@/pages/HomePage';
 import { NotFoundPage } from '@/pages/NotFoundPage';
@@ -24,6 +25,7 @@ export const routeTree = (
     <Route path="alfabeto" element={<AlphabetPage />} />
     <Route path="numeros" element={<NumbersPage />} />
     <Route path="braille" element={<BraillePage />} />
+    <Route path="braille/escritura" element={<BrailleWriting />} />
     <Route path="senas" element={<SignLanguagePage />} />
     <Route path="camara" element={<CameraPage />} />
     <Route path="actividades" element={<ActivitiesPage />} />
