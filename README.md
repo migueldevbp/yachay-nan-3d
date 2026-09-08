@@ -4,7 +4,7 @@ Plataforma web educativa inclusiva y multisensorial. Conecta piezas físicas imp
 
 Corre **100 % en el navegador**, servida como sitio estático. No hay backend.
 
-**Estado actual: Fase 05B de 17.** Escritura Braille con regleta (espejo) y máquina Perkins, además del módulo de lectura de la Fase 05.
+**Estado actual: Fase 06 de 17.** Tarjeta multimodal reutilizable, explorador de alfabeto (mayúsculas y minúsculas) y números 0–9.
 
 ## Stack
 
@@ -73,12 +73,25 @@ Detalle en [docs/deployment.md](docs/deployment.md).
 - Internacionalización propia es/qu (sin i18next); quechua vacío a la espera de validación
 - Módulo Braille: celda SVG con etiqueta para lector de pantalla, referencia por validar y práctica con teclado
 - Escritura Braille: regleta virtual con espejo, Perkins con acordes, dictado y práctica con regleta física (método por validar)
-- Lint, typecheck, tests de humo, i18n, enrutado, Braille y axe
+- Tarjeta multimodal `ResourceCard` (carácter, palabra, Braille, seña pendiente, fonema, voz vía `say()`)
+- Alfabeto en pantalla con pestañas, grid con flechas y filtro de piezas 3D (A, B, C, M, S)
+- Números 0–9 con las dos celdas Braille (signo de número + dígito)
+- Ficha `/#/recurso/:id` (el alias `letter-a-uppercase` abre la A)
+- Lint, typecheck, tests de humo, i18n, enrutado, Braille, recursos y axe
 - Despliegue automático a GitHub Pages
+
+### Pendiente de contenido (no se inventó en esta fase)
+
+- Ningún recurso del catálogo tiene `imageUrl`. La tarjeta muestra solo la palabra.
+- Ningún recurso tiene `media.sign`. Si la preferencia de señas está activa, se muestra un placeholder con badge «Por validar».
+
+### Tipografía del carácter grande
+
+El glifo usa **Verdana, Tahoma, Segoe UI**. Distinguen I, l y 1 sin descargar fuentes (el sitio debe funcionar offline). El contraste del carácter sobre la superficie es ≥ 7:1 (tokens actuales ~15:1 en claro y oscuro, 21:1 en alto contraste).
 
 ### EN DESARROLLO
 
-- Cámara, visión, voz real, alfabeto en pantalla y lengua de señas
+- Cámara, visión, voz real y lengua de señas
 - Actividades, progreso y catálogo de quechua validado
 
 ### VISIÓN FUTURA

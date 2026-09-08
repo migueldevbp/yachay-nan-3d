@@ -1,4 +1,10 @@
 {
   "title": "Números",
-  "coming": "practicar los dígitos del 0 al 9 con Braille y piezas."
+  "coming": "practicar los dígitos del 0 al 9 con Braille y piezas.",
+  "lead": "Los dígitos del 0 al 9, con el signo de número Braille y el dígito.",
+  "gridLabel": "Números del 0 al 9",
+  "listLabel": "Lista de números",
+  "emptyFilter": "Ningún número coincide con el filtro.",
+  "filterPieces": "Solo números con pieza física",
+  "filterPiecesHelp": "En esta fase ningún dígito tiene pieza 3D todavía."
 }

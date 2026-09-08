@@ -10,7 +10,7 @@ Diecisiete fases. Cada una deja el sitio compilando, testeado y desplegable. No 
 | 04   | Internacionalización español / quechua (`src/i18n`)                          | Completada |
 | 05   | Braille accesible: celda SVG, referencia y práctica                          | Completada |
 | 05B  | Escritura Braille: regleta (espejo) y máquina Perkins                        | Completada |
-| 06   | Alfabeto en pantalla                                                         | Pendiente  |
+| 06   | Alfabeto en pantalla                                                         | Completada |
 | 07   | Cámara (captura en el navegador)                                             | Pendiente  |
 | 08   | Visión: reconocimiento de piezas 3D                                          | Pendiente  |
 | 09   | Voz y audio                                                                  | Pendiente  |
@@ -30,3 +30,5 @@ La Fase 04 deja la aplicación navegable (hash router), el layout accesible y la
 La Fase 05 deja el Braille usable en pantalla: celda SVG con nombre accesible, tabla de referencia (por validar) y práctica letra ↔ Braille completable con teclado. Detalle en [braille.md](braille.md).
 
 La Fase 05B enseña a escribir: regleta con espejo (derecha a izquierda) y Perkins sin espejo, guiadas por `say()`. El método está por validar. Detalle en [braille-writing.md](braille-writing.md).
+
+La Fase 06 deja la `ResourceCard` multimodal (independiente de si el recurso viene del catálogo o, en la Fase 12, de la cámara), el explorador de alfabeto con grid ARIA y el de números con las dos celdas Braille. La ficha `/#/recurso/:id` anuncia el recurso y enlaza actividades futuras. No hay imágenes ni señas en el JSON: la tarjeta no las inventa.

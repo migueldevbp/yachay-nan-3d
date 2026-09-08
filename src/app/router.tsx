@@ -15,6 +15,7 @@ import { NotFoundPage } from '@/pages/NotFoundPage';
 import { NumbersPage } from '@/pages/NumbersPage';
 import { PrivacyPage } from '@/pages/PrivacyPage';
 import { ProgressPage } from '@/pages/ProgressPage';
+import { ResourceDetailPage } from '@/pages/ResourceDetailPage';
 import { SignLanguagePage } from '@/pages/SignLanguagePage';
 import { TeacherPage } from '@/pages/TeacherPage';
 import { WordsPage } from '@/pages/WordsPage';
@@ -24,6 +25,7 @@ export const routeTree = (
     <Route index element={<HomePage />} />
     <Route path="alfabeto" element={<AlphabetPage />} />
     <Route path="numeros" element={<NumbersPage />} />
+    <Route path="recurso/:id" element={<ResourceDetailPage />} />
     <Route path="braille" element={<BraillePage />} />
     <Route path="braille/escritura" element={<BrailleWriting />} />
     <Route path="senas" element={<SignLanguagePage />} />

@@ -124,7 +124,9 @@ describe('escritura Braille a ojos cerrados', () => {
     await waitFor(() => {
       expect(screen.getAllByText(/Lección terminada/).length).toBeGreaterThan(0);
     });
-    expect(liveText().length).toBeGreaterThan(0);
+    await waitFor(() => {
+      expect(liveText().length).toBeGreaterThan(0);
+    });
   });
 
   it('la misma lección se entiende con speech: false', async () => {
@@ -134,10 +136,12 @@ describe('escritura Braille a ojos cerrados', () => {
     await waitFor(() => {
       expect(screen.getByText('e')).toBeTruthy();
     });
-    expect(
-      document.querySelector('.caption-banner__text')?.textContent?.length,
-    ).toBeGreaterThan(0);
-    expect(liveText().length).toBeGreaterThan(0);
+    await waitFor(() => {
+      expect(
+        document.querySelector('.caption-banner__text')?.textContent?.length,
+      ).toBeGreaterThan(0);
+      expect(liveText().length).toBeGreaterThan(0);
+    });
   });
 
   it('escribir A sin invertir se diagnostica como espejo', async () => {
